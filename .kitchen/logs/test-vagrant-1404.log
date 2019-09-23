@@ -1,0 +1,289 @@
+I, [2019-09-23T15:50:41.584586 #5654]  INFO -- test-vagrant-1404: -----> Cleaning up any prior instances of <test-vagrant-1404>
+I, [2019-09-23T15:50:41.587565 #5654]  INFO -- test-vagrant-1404: -----> Destroying <test-vagrant-1404>...
+I, [2019-09-23T15:50:54.756916 #5654]  INFO -- test-vagrant-1404: ==> default: Forcing shutdown of VM...
+I, [2019-09-23T15:50:56.274841 #5654]  INFO -- test-vagrant-1404: ==> default: Destroying VM and associated drives...
+I, [2019-09-23T15:50:57.029141 #5654]  INFO -- test-vagrant-1404: Vagrant instance <test-vagrant-1404> destroyed.
+I, [2019-09-23T15:50:57.030846 #5654]  INFO -- test-vagrant-1404: Finished destroying <test-vagrant-1404> (0m15.43s).
+I, [2019-09-23T15:50:57.038666 #5654]  INFO -- test-vagrant-1404: -----> Testing <test-vagrant-1404>
+I, [2019-09-23T15:50:57.042027 #5654]  INFO -- test-vagrant-1404: -----> Creating <test-vagrant-1404>...
+I, [2019-09-23T15:55:06.430251 #5654]  INFO -- test-vagrant-1404: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2019-09-23T15:55:06.660104 #5654]  INFO -- test-vagrant-1404: ==> default: Importing base box 'bento/ubuntu-14.04'...
+I, [2019-09-23T15:55:27.732613 #5654]  INFO -- test-vagrant-1404: [KProgress: 10%[KProgress: 30%[KProgress: 40%[KProgress: 60%[KProgress: 70%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2019-09-23T15:55:28.175701 #5654]  INFO -- test-vagrant-1404: ==> default: Checking if box 'bento/ubuntu-14.04' version '201808.24.0' is up to date...
+I, [2019-09-23T15:55:29.249311 #5654]  INFO -- test-vagrant-1404: ==> default: Setting the name of the VM: kitchen-temp_bundler_1804-test-vagrant-1404-d568f8ae-be3f-4239-babf-e8b0dc1c230d
+I, [2019-09-23T15:55:32.164317 #5654]  INFO -- test-vagrant-1404: ==> default: Fixed port collision for 22 => 2222. Now on port 2204.
+I, [2019-09-23T15:55:33.293124 #5654]  INFO -- test-vagrant-1404: ==> default: Clearing any previously set network interfaces...
+I, [2019-09-23T15:55:33.665716 #5654]  INFO -- test-vagrant-1404: ==> default: Preparing network interfaces based on configuration...
+I, [2019-09-23T15:55:33.666557 #5654]  INFO -- test-vagrant-1404:     default: Adapter 1: nat
+I, [2019-09-23T15:55:33.975519 #5654]  INFO -- test-vagrant-1404: ==> default: Forwarding ports...
+I, [2019-09-23T15:55:34.083215 #5654]  INFO -- test-vagrant-1404:     default: 22 (guest) => 2204 (host) (adapter 1)
+I, [2019-09-23T15:55:34.854816 #5654]  INFO -- test-vagrant-1404: ==> default: Running 'pre-boot' VM customizations...
+I, [2019-09-23T15:55:35.036932 #5654]  INFO -- test-vagrant-1404: ==> default: Booting VM...
+I, [2019-09-23T15:55:35.623775 #5654]  INFO -- test-vagrant-1404: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2019-09-23T15:55:36.029700 #5654]  INFO -- test-vagrant-1404:     default: SSH address: 127.0.0.1:2204
+I, [2019-09-23T15:55:36.029899 #5654]  INFO -- test-vagrant-1404:     default: SSH username: vagrant
+I, [2019-09-23T15:55:36.030281 #5654]  INFO -- test-vagrant-1404:     default: SSH auth method: private key
+I, [2019-09-23T15:56:07.093005 #5654]  INFO -- test-vagrant-1404:     default: 
+I, [2019-09-23T15:56:07.093107 #5654]  INFO -- test-vagrant-1404:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2019-09-23T15:56:07.093139 #5654]  INFO -- test-vagrant-1404:     default: this with a newly generated keypair for better security.
+I, [2019-09-23T15:56:08.873505 #5654]  INFO -- test-vagrant-1404:     default: 
+I, [2019-09-23T15:56:08.873606 #5654]  INFO -- test-vagrant-1404:     default: Inserting generated public key within guest...
+I, [2019-09-23T15:56:09.481068 #5654]  INFO -- test-vagrant-1404:     default: Removing insecure key from the guest if it's present...
+I, [2019-09-23T15:56:10.163692 #5654]  INFO -- test-vagrant-1404:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2019-09-23T15:56:11.629261 #5654]  INFO -- test-vagrant-1404: ==> default: Machine booted and ready!
+I, [2019-09-23T15:56:11.630336 #5654]  INFO -- test-vagrant-1404: ==> default: Checking for guest additions in VM...
+I, [2019-09-23T15:56:11.712384 #5654]  INFO -- test-vagrant-1404:     default: The guest additions on this VM do not match the installed version of
+I, [2019-09-23T15:56:11.712511 #5654]  INFO -- test-vagrant-1404:     default: VirtualBox! In most cases this is fine, but in rare cases it can
+I, [2019-09-23T15:56:11.712547 #5654]  INFO -- test-vagrant-1404:     default: prevent things such as shared folders from working properly. If you see
+I, [2019-09-23T15:56:11.712576 #5654]  INFO -- test-vagrant-1404:     default: shared folder errors, please make sure the guest additions within the
+I, [2019-09-23T15:56:11.712603 #5654]  INFO -- test-vagrant-1404:     default: virtual machine match the version of VirtualBox you have installed on
+I, [2019-09-23T15:56:11.712629 #5654]  INFO -- test-vagrant-1404:     default: your host and reload your VM.
+I, [2019-09-23T15:56:11.712655 #5654]  INFO -- test-vagrant-1404:     default: 
+I, [2019-09-23T15:56:11.712679 #5654]  INFO -- test-vagrant-1404:     default: Guest Additions Version: 5.2.18
+I, [2019-09-23T15:56:11.712705 #5654]  INFO -- test-vagrant-1404:     default: VirtualBox Version: 6.0
+I, [2019-09-23T15:56:11.714108 #5654]  INFO -- test-vagrant-1404: ==> default: Setting hostname...
+I, [2019-09-23T15:56:16.989984 #5654]  INFO -- test-vagrant-1404: ==> default: Mounting shared folders...
+I, [2019-09-23T15:56:16.990778 #5654]  INFO -- test-vagrant-1404:     default: /tmp/omnibus/cache => /home/tvisher/.kitchen/cache
+I, [2019-09-23T15:56:18.128523 #5654]  INFO -- test-vagrant-1404: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2019-09-23T15:56:22.546516 #5654]  INFO -- test-vagrant-1404: [SSH] Established
+I, [2019-09-23T15:56:22.546956 #5654]  INFO -- test-vagrant-1404: Vagrant instance <test-vagrant-1404> created.
+I, [2019-09-23T15:56:22.547993 #5654]  INFO -- test-vagrant-1404: Finished creating <test-vagrant-1404> (5m25.50s).
+I, [2019-09-23T15:56:22.554431 #5654]  INFO -- test-vagrant-1404: -----> Converging <test-vagrant-1404>...
+I, [2019-09-23T15:56:22.560770 #5654]  INFO -- test-vagrant-1404: Preparing files for transfer
+I, [2019-09-23T15:56:22.560921 #5654]  INFO -- test-vagrant-1404: Preparing dna.json
+I, [2019-09-23T15:56:22.561236 #5654]  INFO -- test-vagrant-1404: Resolving cookbook dependencies with Berkshelf 7.0.8...
+I, [2019-09-23T15:56:22.612436 #5654]  INFO -- test-vagrant-1404: Removing non-cookbook files before transfer
+I, [2019-09-23T15:56:22.614618 #5654]  INFO -- test-vagrant-1404: Preparing solo.rb
+I, [2019-09-23T15:56:22.640493 #5654]  INFO -- test-vagrant-1404: ubuntu 14.04 x86_64
+I, [2019-09-23T15:56:22.640827 #5654]  INFO -- test-vagrant-1404: Getting information for chef stable 12 for ubuntu...
+I, [2019-09-23T15:56:22.641862 #5654]  INFO -- test-vagrant-1404: downloading https://omnitruck.chef.io/stable/chef/metadata?v=12&p=ubuntu&pv=14.04&m=x86_64
+I, [2019-09-23T15:56:22.642196 #5654]  INFO -- test-vagrant-1404:   to file /tmp/install.sh.1831/metadata.txt
+I, [2019-09-23T15:56:22.642789 #5654]  INFO -- test-vagrant-1404: trying wget...
+I, [2019-09-23T15:56:23.258108 #5654]  INFO -- test-vagrant-1404: sha1	d3f96995cfab8548ad3b07f5a663b525062495b2
+I, [2019-09-23T15:56:23.259845 #5654]  INFO -- test-vagrant-1404: sha256	91122ea465b14d4381d7de9683d083605500ab029dbd6cd9afe4f9385463fb1a
+I, [2019-09-23T15:56:23.261042 #5654]  INFO -- test-vagrant-1404: url	https://packages.chef.io/files/stable/chef/12.22.5/ubuntu/14.04/chef_12.22.5-1_amd64.deb
+I, [2019-09-23T15:56:23.261744 #5654]  INFO -- test-vagrant-1404: version	12.22.5
+I, [2019-09-23T15:56:23.262356 #5654]  INFO -- test-vagrant-1404: downloaded metadata file looks valid...
+I, [2019-09-23T15:56:23.266986 #5654]  INFO -- test-vagrant-1404: /tmp/omnibus/cache/chef_12.22.5-1_amd64.deb exists
+I, [2019-09-23T15:56:23.268109 #5654]  INFO -- test-vagrant-1404: Comparing checksum with sha256sum...
+I, [2019-09-23T15:56:23.837571 #5654]  INFO -- test-vagrant-1404: Installing chef 12
+I, [2019-09-23T15:56:23.837893 #5654]  INFO -- test-vagrant-1404: installing with dpkg...
+I, [2019-09-23T15:56:24.308739 #5654]  INFO -- test-vagrant-1404: Selecting previously unselected package chef.
+I, [2019-09-23T15:56:27.400896 #5654]  INFO -- test-vagrant-1404: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 36174 files and directories currently installed.)
+I, [2019-09-23T15:56:27.402640 #5654]  INFO -- test-vagrant-1404: Preparing to unpack .../cache/chef_12.22.5-1_amd64.deb ...
+I, [2019-09-23T15:56:27.415649 #5654]  INFO -- test-vagrant-1404: Unpacking chef (12.22.5-1) ...
+I, [2019-09-23T15:56:37.870732 #5654]  INFO -- test-vagrant-1404: Setting up chef (12.22.5-1) ...
+I, [2019-09-23T15:56:38.055703 #5654]  INFO -- test-vagrant-1404: Thank you for installing Chef!
+I, [2019-09-23T15:56:38.216113 #5654]  INFO -- test-vagrant-1404: Transferring files to <test-vagrant-1404>
+I, [2019-09-23T15:56:44.902970 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:56:44+00:00] INFO: Forking chef instance to converge...
+I, [2019-09-23T15:56:46.932005 #5654]  INFO -- test-vagrant-1404: Starting Chef Client, version 12.22.5
+I, [2019-09-23T15:56:46.932313 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:56:46+00:00] INFO: *** Chef 12.22.5 ***
+I, [2019-09-23T15:56:46.932641 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:56:46+00:00] INFO: Platform: x86_64-linux
+I, [2019-09-23T15:56:46.933149 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:56:46+00:00] INFO: Chef-client pid: 1914
+I, [2019-09-23T15:56:55.999120 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:56:55+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+I, [2019-09-23T15:57:00.038044 #5654]  INFO -- test-vagrant-1404: Creating a new client identity for test-vagrant-1404 using the validator key.
+I, [2019-09-23T15:57:00.038511 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Client key /tmp/kitchen/client.pem is not present - registering
+I, [2019-09-23T15:57:00.155698 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: HTTP Request Returned 404 Not Found: Object not found: chefzero://localhost:8889/nodes/test-vagrant-1404
+I, [2019-09-23T15:57:00.157995 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Setting the run_list to ["recipe[test]"] from CLI options
+I, [2019-09-23T15:57:00.171551 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Run List is [recipe[test]]
+I, [2019-09-23T15:57:00.172053 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Run List expands to [test]
+I, [2019-09-23T15:57:00.172266 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Starting Chef Run for test-vagrant-1404
+I, [2019-09-23T15:57:00.172680 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Running start handlers
+I, [2019-09-23T15:57:00.172945 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Start handlers complete.
+I, [2019-09-23T15:57:00.174369 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: HTTP Request Returned 404 Not Found: Object not found: 
+I, [2019-09-23T15:57:00.175085 #5654]  INFO -- test-vagrant-1404: resolving cookbooks for run list: ["test"]
+I, [2019-09-23T15:57:00.293802 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Loading cookbooks [test@0.0.0, aws@6.1.1]
+I, [2019-09-23T15:57:00.296362 #5654]  INFO -- test-vagrant-1404: Synchronizing Cookbooks:
+I, [2019-09-23T15:57:00.309303 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/test/recipes/default.rb in the cache.
+I, [2019-09-23T15:57:00.309657 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/test/metadata.rb in the cache.
+I, [2019-09-23T15:57:00.310187 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/resources/cloudformation_stack.rb in the cache.
+I, [2019-09-23T15:57:00.318546 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/resources/iam_group.rb in the cache.
+I, [2019-09-23T15:57:00.318876 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/resources/cloudwatch.rb in the cache.
+I, [2019-09-23T15:57:00.319091 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/resources/dynamodb_table.rb in the cache.
+I, [2019-09-23T15:57:00.319349 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/resources/ebs_volume.rb in the cache.
+I, [2019-09-23T15:57:00.319594 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/resources/elastic_ip.rb in the cache.
+I, [2019-09-23T15:57:00.319867 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/test/metadata.json in the cache.
+I, [2019-09-23T15:57:00.320130 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/resources/elastic_lb.rb in the cache.
+I, [2019-09-23T15:57:00.336495 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/resources/kinesis_stream.rb in the cache.
+I, [2019-09-23T15:57:00.337249 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/resources/iam_role.rb in the cache.
+I, [2019-09-23T15:57:00.337523 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/resources/resource_tag.rb in the cache.
+I, [2019-09-23T15:57:00.337823 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/resources/s3_file.rb in the cache.
+I, [2019-09-23T15:57:00.338692 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/resources/secondary_ip.rb in the cache.
+I, [2019-09-23T15:57:00.339087 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/providers/cloudformation_stack.rb in the cache.
+I, [2019-09-23T15:57:00.339468 #5654]  INFO -- test-vagrant-1404:   - test (0.0.0)
+I, [2019-09-23T15:57:00.345099 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/providers/dynamodb_table.rb in the cache.
+I, [2019-09-23T15:57:00.345515 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/resources/instance_monitoring.rb in the cache.
+I, [2019-09-23T15:57:00.345792 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/resources/iam_user.rb in the cache.
+I, [2019-09-23T15:57:00.346681 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/providers/ebs_volume.rb in the cache.
+I, [2019-09-23T15:57:00.346906 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/providers/elastic_ip.rb in the cache.
+I, [2019-09-23T15:57:00.356895 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/providers/iam_role.rb in the cache.
+I, [2019-09-23T15:57:00.357383 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/providers/iam_user.rb in the cache.
+I, [2019-09-23T15:57:00.357817 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/providers/kinesis_stream.rb in the cache.
+I, [2019-09-23T15:57:00.361558 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/recipes/ec2_hints.rb in the cache.
+I, [2019-09-23T15:57:00.361923 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/providers/resource_tag.rb in the cache.
+I, [2019-09-23T15:57:00.364795 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/libraries/dynamodb.rb in the cache.
+I, [2019-09-23T15:57:00.365981 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/providers/s3_file.rb in the cache.
+I, [2019-09-23T15:57:00.367551 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/providers/iam_policy.rb in the cache.
+I, [2019-09-23T15:57:00.368612 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/providers/secondary_ip.rb in the cache.
+I, [2019-09-23T15:57:00.369585 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/recipes/default.rb in the cache.
+I, [2019-09-23T15:57:00.370544 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/libraries/cloudformation.rb in the cache.
+I, [2019-09-23T15:57:00.371542 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/libraries/cloudwatch.rb in the cache.
+I, [2019-09-23T15:57:00.371773 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/providers/iam_group.rb in the cache.
+I, [2019-09-23T15:57:00.372381 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/resources/iam_policy.rb in the cache.
+I, [2019-09-23T15:57:00.373031 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/libraries/iam.rb in the cache.
+I, [2019-09-23T15:57:00.373700 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/libraries/kinesis.rb in the cache.
+I, [2019-09-23T15:57:00.377009 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/libraries/s3.rb in the cache.
+I, [2019-09-23T15:57:00.377326 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/libraries/matchers.rb in the cache.
+I, [2019-09-23T15:57:00.377651 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/README.md in the cache.
+I, [2019-09-23T15:57:00.379442 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/libraries/elb.rb in the cache.
+I, [2019-09-23T15:57:00.380598 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/libraries/ec2.rb in the cache.
+I, [2019-09-23T15:57:00.380936 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:00+00:00] INFO: Storing updated cookbooks/aws/metadata.json in the cache.
+I, [2019-09-23T15:57:00.382210 #5654]  INFO -- test-vagrant-1404:   - aws (6.1.1)
+I, [2019-09-23T15:57:00.383083 #5654]  INFO -- test-vagrant-1404: Installing Cookbook Gems:
+I, [2019-09-23T15:57:11.508505 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:11+00:00] INFO: Don't run Bundler as root. Bundler can ask for sudo if it is needed, and
+I, [2019-09-23T15:57:11.508600 #5654]  INFO -- test-vagrant-1404: installing your bundle as root will break this application for all non-root
+I, [2019-09-23T15:57:11.508631 #5654]  INFO -- test-vagrant-1404: users on this machine.
+I, [2019-09-23T15:57:11.508657 #5654]  INFO -- test-vagrant-1404: Fetching gem metadata from https://rubygems.org/
+I, [2019-09-23T15:57:11.508683 #5654]  INFO -- test-vagrant-1404: Fetching version metadata from https://rubygems.org/
+I, [2019-09-23T15:57:11.508707 #5654]  INFO -- test-vagrant-1404: Resolving dependencies...
+I, [2019-09-23T15:57:11.508732 #5654]  INFO -- test-vagrant-1404: Installing aws-eventstream 1.0.3
+I, [2019-09-23T15:57:11.508756 #5654]  INFO -- test-vagrant-1404: Installing jmespath 1.4.0
+I, [2019-09-23T15:57:11.508799 #5654]  INFO -- test-vagrant-1404: Using bundler 1.12.5
+I, [2019-09-23T15:57:11.508825 #5654]  INFO -- test-vagrant-1404: Installing aws-sigv4 1.1.0
+I, [2019-09-23T15:57:11.508850 #5654]  INFO -- test-vagrant-1404: Installing aws-sdk-core 2.11.358
+I, [2019-09-23T15:57:11.508875 #5654]  INFO -- test-vagrant-1404: Installing aws-sdk-resources 2.11.358
+I, [2019-09-23T15:57:11.508899 #5654]  INFO -- test-vagrant-1404: Installing aws-sdk 2.11.358
+I, [2019-09-23T15:57:11.508924 #5654]  INFO -- test-vagrant-1404: Bundle complete! 1 Gemfile dependency, 7 gems now installed.
+I, [2019-09-23T15:57:11.508952 #5654]  INFO -- test-vagrant-1404: Use `bundle show [gemname]` to see where a bundled gem is installed.
+I, [2019-09-23T15:57:11.508977 #5654]  INFO -- test-vagrant-1404: 
+I, [2019-09-23T15:57:11.509002 #5654]  INFO -- test-vagrant-1404: Compiling Cookbooks...
+I, [2019-09-23T15:57:11.598624 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:11+00:00] INFO: HTTP Request Returned 404 Not Found: Object not found: 
+I, [2019-09-23T15:57:11.599566 #5654]  INFO -- test-vagrant-1404: Converging 4 resources
+I, [2019-09-23T15:57:11.599868 #5654]  INFO -- test-vagrant-1404: Recipe: test::default
+I, [2019-09-23T15:57:11.600374 #5654]  INFO -- test-vagrant-1404:   * apt_update[bundler] action periodic[2019-09-23T19:57:11+00:00] INFO: Processing apt_update[bundler] action periodic (test::default line 1)
+I, [2019-09-23T15:57:11.969542 #5654]  INFO -- test-vagrant-1404: 
+I, [2019-09-23T15:57:11.978906 #5654]  INFO -- test-vagrant-1404:     - update new lists of packages
+I, [2019-09-23T15:57:11.979366 #5654]  INFO -- test-vagrant-1404:     * directory[/var/lib/apt/periodic] action create[2019-09-23T19:57:11+00:00] INFO: Processing directory[/var/lib/apt/periodic] action create (/opt/chef/embedded/lib/ruby/gems/2.3.0/gems/chef-12.22.5/lib/chef/provider/apt_update.rb line 70)
+I, [2019-09-23T15:57:11.979620 #5654]  INFO -- test-vagrant-1404:  (up to date)
+I, [2019-09-23T15:57:11.980651 #5654]  INFO -- test-vagrant-1404:     * directory[/etc/apt/apt.conf.d] action create[2019-09-23T19:57:11+00:00] INFO: Processing directory[/etc/apt/apt.conf.d] action create (/opt/chef/embedded/lib/ruby/gems/2.3.0/gems/chef-12.22.5/lib/chef/provider/apt_update.rb line 70)
+I, [2019-09-23T15:57:11.981494 #5654]  INFO -- test-vagrant-1404:  (up to date)
+I, [2019-09-23T15:57:11.981853 #5654]  INFO -- test-vagrant-1404:     * file[/etc/apt/apt.conf.d/15update-stamp] action create_if_missing[2019-09-23T19:57:11+00:00] INFO: Processing file[/etc/apt/apt.conf.d/15update-stamp] action create_if_missing (/opt/chef/embedded/lib/ruby/gems/2.3.0/gems/chef-12.22.5/lib/chef/provider/apt_update.rb line 75)
+I, [2019-09-23T15:57:11.982062 #5654]  INFO -- test-vagrant-1404:  (up to date)
+I, [2019-09-23T15:57:11.982402 #5654]  INFO -- test-vagrant-1404:     * execute[apt-get -q update] action run[2019-09-23T19:57:11+00:00] INFO: Processing execute[apt-get -q update] action run (/opt/chef/embedded/lib/ruby/gems/2.3.0/gems/chef-12.22.5/lib/chef/provider/apt_update.rb line 80)
+I, [2019-09-23T15:57:12.603085 #5654]  INFO -- test-vagrant-1404: 
+I, [2019-09-23T15:57:12.603165 #5654]  INFO -- test-vagrant-1404:       [execute] Get:1 http://security.ubuntu.com trusty-security InRelease [65.9 kB]
+I, [2019-09-23T15:57:12.603551 #5654]  INFO -- test-vagrant-1404:          Ign http://archive.ubuntu.com trusty InRelease
+I, [2019-09-23T15:57:12.760501 #5654]  INFO -- test-vagrant-1404:          Get:2 http://archive.ubuntu.com trusty-updates InRelease [65.9 kB]
+I, [2019-09-23T15:57:13.070853 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty-backports InRelease
+I, [2019-09-23T15:57:13.200801 #5654]  INFO -- test-vagrant-1404:          Get:3 http://security.ubuntu.com trusty-security/main Sources [172 kB]
+I, [2019-09-23T15:57:13.222787 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty Release.gpg
+I, [2019-09-23T15:57:13.371871 #5654]  INFO -- test-vagrant-1404:          Get:4 http://archive.ubuntu.com trusty-updates/main Sources [431 kB]
+I, [2019-09-23T15:57:13.697901 #5654]  INFO -- test-vagrant-1404:          Get:5 http://security.ubuntu.com trusty-security/restricted Sources [4931 B]
+I, [2019-09-23T15:57:13.857660 #5654]  INFO -- test-vagrant-1404:          Get:6 http://security.ubuntu.com trusty-security/universe Sources [102 kB]
+I, [2019-09-23T15:57:13.909898 #5654]  INFO -- test-vagrant-1404:          Get:7 http://archive.ubuntu.com trusty-updates/restricted Sources [6313 B]
+I, [2019-09-23T15:57:14.058790 #5654]  INFO -- test-vagrant-1404:          Get:8 http://archive.ubuntu.com trusty-updates/universe Sources [231 kB]
+I, [2019-09-23T15:57:14.256244 #5654]  INFO -- test-vagrant-1404:          Get:9 http://security.ubuntu.com trusty-security/multiverse Sources [3263 B]
+I, [2019-09-23T15:57:14.415607 #5654]  INFO -- test-vagrant-1404:          Get:10 http://security.ubuntu.com trusty-security/main amd64 Packages [835 kB]
+I, [2019-09-23T15:57:14.525280 #5654]  INFO -- test-vagrant-1404:          Get:11 http://archive.ubuntu.com trusty-updates/multiverse Sources [7535 B]
+I, [2019-09-23T15:57:14.671569 #5654]  INFO -- test-vagrant-1404:          Get:12 http://archive.ubuntu.com trusty-updates/main amd64 Packages [1178 kB]
+I, [2019-09-23T15:57:15.039681 #5654]  INFO -- test-vagrant-1404:          Get:13 http://security.ubuntu.com trusty-security/restricted amd64 Packages [14.2 kB]
+I, [2019-09-23T15:57:15.224956 #5654]  INFO -- test-vagrant-1404:          Get:14 http://security.ubuntu.com trusty-security/universe amd64 Packages [294 kB]
+I, [2019-09-23T15:57:15.380281 #5654]  INFO -- test-vagrant-1404:          Get:15 http://archive.ubuntu.com trusty-updates/restricted amd64 Packages [17.2 kB]
+I, [2019-09-23T15:57:15.605874 #5654]  INFO -- test-vagrant-1404:          Get:16 http://archive.ubuntu.com trusty-updates/universe amd64 Packages [526 kB]
+I, [2019-09-23T15:57:15.718686 #5654]  INFO -- test-vagrant-1404:          Get:17 http://security.ubuntu.com trusty-security/multiverse amd64 Packages [4806 B]
+I, [2019-09-23T15:57:15.878812 #5654]  INFO -- test-vagrant-1404:          Get:18 http://security.ubuntu.com trusty-security/main i386 Packages [748 kB]
+I, [2019-09-23T15:57:16.154503 #5654]  INFO -- test-vagrant-1404:          Get:19 http://archive.ubuntu.com trusty-updates/multiverse amd64 Packages [14.6 kB]
+I, [2019-09-23T15:57:16.307826 #5654]  INFO -- test-vagrant-1404:          Get:20 http://archive.ubuntu.com trusty-updates/main i386 Packages [1089 kB]
+I, [2019-09-23T15:57:16.471144 #5654]  INFO -- test-vagrant-1404:          Get:21 http://security.ubuntu.com trusty-security/restricted i386 Packages [13.9 kB]
+I, [2019-09-23T15:57:16.656742 #5654]  INFO -- test-vagrant-1404:          Get:22 http://security.ubuntu.com trusty-security/universe i386 Packages [276 kB]
+I, [2019-09-23T15:57:16.919237 #5654]  INFO -- test-vagrant-1404:          Get:23 http://archive.ubuntu.com trusty-updates/restricted i386 Packages [17.0 kB]
+I, [2019-09-23T15:57:17.138886 #5654]  INFO -- test-vagrant-1404:          Get:24 http://archive.ubuntu.com trusty-updates/universe i386 Packages [504 kB]
+I, [2019-09-23T15:57:17.146891 #5654]  INFO -- test-vagrant-1404:          Get:25 http://security.ubuntu.com trusty-security/multiverse i386 Packages [4969 B]
+I, [2019-09-23T15:57:17.304610 #5654]  INFO -- test-vagrant-1404:          Get:26 http://security.ubuntu.com trusty-security/main Translation-en [448 kB]
+I, [2019-09-23T15:57:17.680172 #5654]  INFO -- test-vagrant-1404:          Get:27 http://archive.ubuntu.com trusty-updates/multiverse i386 Packages [15.1 kB]
+I, [2019-09-23T15:57:17.833745 #5654]  INFO -- test-vagrant-1404:          Get:28 http://archive.ubuntu.com trusty-updates/main Translation-en [582 kB]
+I, [2019-09-23T15:57:17.844814 #5654]  INFO -- test-vagrant-1404:          Get:29 http://security.ubuntu.com trusty-security/multiverse Translation-en [2564 B]
+I, [2019-09-23T15:57:18.003515 #5654]  INFO -- test-vagrant-1404:          Get:30 http://security.ubuntu.com trusty-security/restricted Translation-en [3556 B]
+I, [2019-09-23T15:57:18.167358 #5654]  INFO -- test-vagrant-1404:          Get:31 http://security.ubuntu.com trusty-security/universe Translation-en [162 kB]
+I, [2019-09-23T15:57:18.404106 #5654]  INFO -- test-vagrant-1404:          Get:32 http://archive.ubuntu.com trusty-updates/multiverse Translation-en [7616 B]
+I, [2019-09-23T15:57:18.560241 #5654]  INFO -- test-vagrant-1404:          Get:33 http://archive.ubuntu.com trusty-updates/restricted Translation-en [4028 B]
+I, [2019-09-23T15:57:18.709811 #5654]  INFO -- test-vagrant-1404:          Get:34 http://archive.ubuntu.com trusty-updates/universe Translation-en [281 kB]
+I, [2019-09-23T15:57:19.236079 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty-backports/main Sources
+I, [2019-09-23T15:57:19.347774 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty-backports/restricted Sources
+I, [2019-09-23T15:57:19.497451 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty-backports/universe Sources
+I, [2019-09-23T15:57:19.645779 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty-backports/multiverse Sources
+I, [2019-09-23T15:57:19.792307 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty-backports/main amd64 Packages
+I, [2019-09-23T15:57:19.947037 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty-backports/restricted amd64 Packages
+I, [2019-09-23T15:57:20.097182 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty-backports/universe amd64 Packages
+I, [2019-09-23T15:57:20.251205 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty-backports/multiverse amd64 Packages
+I, [2019-09-23T15:57:20.399602 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty-backports/main i386 Packages
+I, [2019-09-23T15:57:20.555934 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty-backports/restricted i386 Packages
+I, [2019-09-23T15:57:20.708040 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty-backports/universe i386 Packages
+I, [2019-09-23T15:57:20.863803 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty-backports/multiverse i386 Packages
+I, [2019-09-23T15:57:21.011428 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty-backports/main Translation-en
+I, [2019-09-23T15:57:21.158839 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty-backports/multiverse Translation-en
+I, [2019-09-23T15:57:21.306497 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty-backports/restricted Translation-en
+I, [2019-09-23T15:57:21.458286 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty-backports/universe Translation-en
+I, [2019-09-23T15:57:21.614409 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty Release
+I, [2019-09-23T15:57:21.804930 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty/main Sources
+I, [2019-09-23T15:57:21.956777 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty/restricted Sources
+I, [2019-09-23T15:57:22.101250 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty/universe Sources
+I, [2019-09-23T15:57:22.251153 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty/multiverse Sources
+I, [2019-09-23T15:57:22.398104 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty/main amd64 Packages
+I, [2019-09-23T15:57:22.545744 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty/restricted amd64 Packages
+I, [2019-09-23T15:57:22.695322 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty/universe amd64 Packages
+I, [2019-09-23T15:57:22.848405 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty/multiverse amd64 Packages
+I, [2019-09-23T15:57:22.997835 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty/main i386 Packages
+I, [2019-09-23T15:57:23.146685 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty/restricted i386 Packages
+I, [2019-09-23T15:57:23.298889 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty/universe i386 Packages
+I, [2019-09-23T15:57:23.449919 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty/multiverse i386 Packages
+I, [2019-09-23T15:57:23.597737 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty/main Translation-en
+I, [2019-09-23T15:57:23.747452 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty/multiverse Translation-en
+I, [2019-09-23T15:57:23.894107 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty/restricted Translation-en
+I, [2019-09-23T15:57:24.044537 #5654]  INFO -- test-vagrant-1404:          Hit http://archive.ubuntu.com trusty/universe Translation-en
+I, [2019-09-23T15:57:28.445324 #5654]  INFO -- test-vagrant-1404:          Fetched 8131 kB in 16s (507 kB/s)
+I, [2019-09-23T15:57:34.438174 #5654]  INFO -- test-vagrant-1404:          Reading package lists...
+I, [2019-09-23T15:57:34.449070 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:57:34+00:00] INFO: execute[apt-get -q update] ran successfully
+I, [2019-09-23T15:57:34.449814 #5654]  INFO -- test-vagrant-1404:       - execute apt-get -q update
+I, [2019-09-23T15:57:34.450055 #5654]  INFO -- test-vagrant-1404:   
+I, [2019-09-23T15:57:34.450907 #5654]  INFO -- test-vagrant-1404:   * apt_package[bundler] action install[2019-09-23T19:57:34+00:00] INFO: Processing apt_package[bundler] action install (test::default line 3)
+I, [2019-09-23T15:58:11.239263 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:58:11+00:00] INFO: apt_package[bundler] installed bundler at 1.3.5-2ubuntu1
+I, [2019-09-23T15:58:11.239438 #5654]  INFO -- test-vagrant-1404: 
+I, [2019-09-23T15:58:11.239490 #5654]  INFO -- test-vagrant-1404:     - install version 1.3.5-2ubuntu1 of package bundler
+I, [2019-09-23T15:58:11.239537 #5654]  INFO -- test-vagrant-1404:   * file[/home/vagrant/Gemfile] action create[2019-09-23T19:58:11+00:00] INFO: Processing file[/home/vagrant/Gemfile] action create (test::default line 6)
+I, [2019-09-23T15:58:11.241424 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:58:11+00:00] INFO: file[/home/vagrant/Gemfile] created file /home/vagrant/Gemfile
+I, [2019-09-23T15:58:11.241747 #5654]  INFO -- test-vagrant-1404: 
+I, [2019-09-23T15:58:11.244689 #5654]  INFO -- test-vagrant-1404:     - create new file /home/vagrant/Gemfile[2019-09-23T19:58:11+00:00] INFO: file[/home/vagrant/Gemfile] updated file contents /home/vagrant/Gemfile
+I, [2019-09-23T15:58:11.245345 #5654]  INFO -- test-vagrant-1404: 
+I, [2019-09-23T15:58:11.246181 #5654]  INFO -- test-vagrant-1404:     - update content in file /home/vagrant/Gemfile from none to 91a9ed
+I, [2019-09-23T15:58:11.247659 #5654]  INFO -- test-vagrant-1404:     --- /home/vagrant/Gemfile	2019-09-23 19:58:11.239953726 +0000
+I, [2019-09-23T15:58:11.248277 #5654]  INFO -- test-vagrant-1404:     +++ /home/vagrant/.chef-Gemfile20190923-1914-wzqteh	2019-09-23 19:58:11.239953726 +0000
+I, [2019-09-23T15:58:11.248599 #5654]  INFO -- test-vagrant-1404:     @@ -1 +1,3 @@
+I, [2019-09-23T15:58:11.248867 #5654]  INFO -- test-vagrant-1404:     +    source 'https://rubygems.org'
+I, [2019-09-23T15:58:11.249551 #5654]  INFO -- test-vagrant-1404:     +    gem 'rake', '10.0.4'
+I, [2019-09-23T15:58:11.250367 #5654]  INFO -- test-vagrant-1404:   * execute[bundle install] action run[2019-09-23T19:58:11+00:00] INFO: Processing execute[bundle install] action run (test::default line 13)
+I, [2019-09-23T15:58:12.235263 #5654]  INFO -- test-vagrant-1404: 
+I, [2019-09-23T15:58:12.338848 #5654]  INFO -- test-vagrant-1404:     [execute] Fetching gem metadata from https://rubygems.org/..
+I, [2019-09-23T15:58:12.352865 #5654]  INFO -- test-vagrant-1404:        Resolving dependencies...
+I, [2019-09-23T15:58:13.280925 #5654]  INFO -- test-vagrant-1404:        Installing rake (10.0.4) 
+I, [2019-09-23T15:58:13.288411 #5654]  INFO -- test-vagrant-1404:        Using bundler (1.3.5) 
+I, [2019-09-23T15:58:13.290019 #5654]  INFO -- test-vagrant-1404:        Your bundle is complete!
+I, [2019-09-23T15:58:13.290235 #5654]  INFO -- test-vagrant-1404:        Use `bundle show [gemname]` to see where a bundled gem is installed.
+I, [2019-09-23T15:58:13.329752 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:58:13+00:00] INFO: execute[bundle install] ran successfully
+I, [2019-09-23T15:58:13.329849 #5654]  INFO -- test-vagrant-1404:     - execute bundle install
+I, [2019-09-23T15:58:13.374564 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:58:13+00:00] INFO: Chef Run complete in 73.206095451 seconds
+I, [2019-09-23T15:58:13.378598 #5654]  INFO -- test-vagrant-1404: 
+I, [2019-09-23T15:58:13.378882 #5654]  INFO -- test-vagrant-1404: Running handlers:
+I, [2019-09-23T15:58:13.379384 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:58:13+00:00] INFO: Running report handlers
+I, [2019-09-23T15:58:13.379764 #5654]  INFO -- test-vagrant-1404: Running handlers complete
+I, [2019-09-23T15:58:13.380199 #5654]  INFO -- test-vagrant-1404: [2019-09-23T19:58:13+00:00] INFO: Report handlers complete
+I, [2019-09-23T15:58:13.380730 #5654]  INFO -- test-vagrant-1404: Chef Client finished, 5/8 resources updated in 01 minutes 28 seconds
+I, [2019-09-23T15:58:13.433329 #5654]  INFO -- test-vagrant-1404: Downloading files from <test-vagrant-1404>
+I, [2019-09-23T15:58:13.437301 #5654]  INFO -- test-vagrant-1404: Finished converging <test-vagrant-1404> (1m50.88s).
+I, [2019-09-23T15:58:13.437512 #5654]  INFO -- test-vagrant-1404: -----> Setting up <test-vagrant-1404>...
+I, [2019-09-23T15:58:13.608826 #5654]  INFO -- test-vagrant-1404: Finished setting up <test-vagrant-1404> (0m0.00s).
+I, [2019-09-23T15:58:13.609012 #5654]  INFO -- test-vagrant-1404: -----> Verifying <test-vagrant-1404>...
+I, [2019-09-23T15:58:13.609580 #5654]  INFO -- test-vagrant-1404: Preparing files for transfer
+I, [2019-09-23T15:58:13.609923 #5654]  INFO -- test-vagrant-1404: Transferring files to <test-vagrant-1404>
+I, [2019-09-23T15:58:13.610576 #5654]  INFO -- test-vagrant-1404: Finished verifying <test-vagrant-1404> (0m0.00s).
+I, [2019-09-23T15:58:13.610692 #5654]  INFO -- test-vagrant-1404: Finished testing <test-vagrant-1404> (7m32.03s).

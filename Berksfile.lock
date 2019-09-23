@@ -1,0 +1,11 @@
+DEPENDENCIES
+  test
+    path: chef/cookbooks/test
+  test_no_cookbook_gems
+    path: chef/cookbooks/test_no_cookbook_gems
+
+GRAPH
+  aws (6.1.1)
+  test (0.0.0)
+    aws (~> 6.1.0)
+  test_no_cookbook_gems (0.0.0)
