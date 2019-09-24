@@ -1,0 +1,10 @@
+Vagrant.configure("2") do |c|
+  c.berkshelf.enabled = false if Vagrant.has_plugin?("vagrant-berkshelf")
+  c.vm.box = "ubuntu/bionic64"
+  c.vm.hostname = "test-no-cookbook-gems-ubuntu-1404.vagrantup.com"
+  c.vm.synced_folder ".", "/vagrant", disabled: true
+  c.vm.provider :virtualbox do |p|
+    p.name = "kitchen-temp_bundler_1804-test-no-cookbook-gems-ubuntu-1404-57430beb-af64-43ce-a481-60e957ae987b"
+    p.customize ["modifyvm", :id, "--audio", "none"]
+  end
+end

@@ -5,7 +5,7 @@ Vagrant.configure("2") do |c|
   c.vm.synced_folder ".", "/vagrant", disabled: true
   c.vm.synced_folder "/home/tvisher/.kitchen/cache", "/tmp/omnibus/cache", create: true
   c.vm.provider :virtualbox do |p|
-    p.name = "kitchen-temp_bundler_1804-test-vagrant-1804-87d461ba-87dd-492f-974b-64a68c6de45d"
+    p.name = "kitchen-temp_bundler_1804-test-vagrant-1804-f02da79d-b758-41ce-8fda-85e546741ed0"
     p.customize ["modifyvm", :id, "--audio", "none"]
   end
 end

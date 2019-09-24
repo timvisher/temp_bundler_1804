@@ -31,6 +31,10 @@ platforms:
         sudo:
           users:
             - vagrant
+  - name: ubuntu-14.04
+    driver:
+      name: vagrant
+      box: ubuntu/bionic64
 suites:
   - name: test
     run_list: 'recipe[test]'
