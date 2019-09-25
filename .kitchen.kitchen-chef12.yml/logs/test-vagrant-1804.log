@@ -1,0 +1,356 @@
+I, [2019-09-25T09:15:27.971099 #15577]  INFO -- test-vagrant-1804: -----> Cleaning up any prior instances of <test-vagrant-1804>
+I, [2019-09-25T09:15:27.972795 #15577]  INFO -- test-vagrant-1804: -----> Destroying <test-vagrant-1804>...
+I, [2019-09-25T09:15:27.975675 #15577]  INFO -- test-vagrant-1804: Finished destroying <test-vagrant-1804> (0m0.00s).
+I, [2019-09-25T09:15:27.976189 #15577]  INFO -- test-vagrant-1804: -----> Testing <test-vagrant-1804>
+I, [2019-09-25T09:15:27.984068 #15577]  INFO -- test-vagrant-1804: -----> Creating <test-vagrant-1804>...
+I, [2019-09-25T09:19:12.709371 #15577]  INFO -- test-vagrant-1804: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2019-09-25T09:19:12.957025 #15577]  INFO -- test-vagrant-1804: ==> default: Importing base box 'bento/ubuntu-18.04'...
+I, [2019-09-25T09:19:43.664578 #15577]  INFO -- test-vagrant-1804: [KProgress: 10%[KProgress: 20%[KProgress: 40%[KProgress: 50%[KProgress: 60%[KProgress: 70%[KProgress: 80%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2019-09-25T09:19:43.911563 #15577]  INFO -- test-vagrant-1804: ==> default: Checking if box 'bento/ubuntu-18.04' version '201906.18.0' is up to date...
+I, [2019-09-25T09:19:44.931724 #15577]  INFO -- test-vagrant-1804: ==> default: Setting the name of the VM: kitchen-temp_bundler_1804-test-vagrant-1804-1e4244a1-eff5-4914-9eb5-6b8abe514003
+I, [2019-09-25T09:19:46.520786 #15577]  INFO -- test-vagrant-1804: ==> default: Fixed port collision for 22 => 2222. Now on port 2202.
+I, [2019-09-25T09:19:47.619852 #15577]  INFO -- test-vagrant-1804: ==> default: Clearing any previously set network interfaces...
+I, [2019-09-25T09:19:47.788346 #15577]  INFO -- test-vagrant-1804: ==> default: Preparing network interfaces based on configuration...
+I, [2019-09-25T09:19:47.797807 #15577]  INFO -- test-vagrant-1804:     default: Adapter 1: nat
+I, [2019-09-25T09:19:48.046253 #15577]  INFO -- test-vagrant-1804: ==> default: Forwarding ports...
+I, [2019-09-25T09:19:48.191803 #15577]  INFO -- test-vagrant-1804:     default: 22 (guest) => 2202 (host) (adapter 1)
+I, [2019-09-25T09:19:48.531633 #15577]  INFO -- test-vagrant-1804: ==> default: Running 'pre-boot' VM customizations...
+I, [2019-09-25T09:19:48.710152 #15577]  INFO -- test-vagrant-1804: ==> default: Booting VM...
+I, [2019-09-25T09:19:49.477633 #15577]  INFO -- test-vagrant-1804: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2019-09-25T09:19:50.296382 #15577]  INFO -- test-vagrant-1804:     default: SSH address: 127.0.0.1:2202
+I, [2019-09-25T09:19:50.296717 #15577]  INFO -- test-vagrant-1804:     default: SSH username: vagrant
+I, [2019-09-25T09:19:50.297518 #15577]  INFO -- test-vagrant-1804:     default: SSH auth method: private key
+I, [2019-09-25T09:20:05.785608 #15577]  INFO -- test-vagrant-1804:     default: Warning: Connection reset. Retrying...
+I, [2019-09-25T09:20:06.041679 #15577]  INFO -- test-vagrant-1804:     default: Warning: Remote connection disconnect. Retrying...
+I, [2019-09-25T09:20:17.026632 #15577]  INFO -- test-vagrant-1804:     default: 
+I, [2019-09-25T09:20:17.026759 #15577]  INFO -- test-vagrant-1804:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2019-09-25T09:20:17.026806 #15577]  INFO -- test-vagrant-1804:     default: this with a newly generated keypair for better security.
+I, [2019-09-25T09:20:19.057698 #15577]  INFO -- test-vagrant-1804:     default: 
+I, [2019-09-25T09:20:19.057829 #15577]  INFO -- test-vagrant-1804:     default: Inserting generated public key within guest...
+I, [2019-09-25T09:20:19.995335 #15577]  INFO -- test-vagrant-1804:     default: Removing insecure key from the guest if it's present...
+I, [2019-09-25T09:20:20.573898 #15577]  INFO -- test-vagrant-1804:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2019-09-25T09:20:21.484417 #15577]  INFO -- test-vagrant-1804: ==> default: Machine booted and ready!
+I, [2019-09-25T09:20:21.485580 #15577]  INFO -- test-vagrant-1804: ==> default: Checking for guest additions in VM...
+I, [2019-09-25T09:20:21.584899 #15577]  INFO -- test-vagrant-1804: ==> default: Setting hostname...
+I, [2019-09-25T09:20:22.985898 #15577]  INFO -- test-vagrant-1804: ==> default: Mounting shared folders...
+I, [2019-09-25T09:20:22.986764 #15577]  INFO -- test-vagrant-1804:     default: /tmp/omnibus/cache => /home/tvisher/.kitchen/cache
+I, [2019-09-25T09:20:24.727464 #15577]  INFO -- test-vagrant-1804: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2019-09-25T09:20:29.896983 #15577]  INFO -- test-vagrant-1804: [SSH] Established
+I, [2019-09-25T09:20:29.898187 #15577]  INFO -- test-vagrant-1804: Vagrant instance <test-vagrant-1804> created.
+I, [2019-09-25T09:20:29.900590 #15577]  INFO -- test-vagrant-1804: Finished creating <test-vagrant-1804> (5m1.91s).
+I, [2019-09-25T09:20:29.906083 #15577]  INFO -- test-vagrant-1804: -----> Converging <test-vagrant-1804>...
+I, [2019-09-25T09:20:29.909568 #15577]  INFO -- test-vagrant-1804: Preparing files for transfer
+I, [2019-09-25T09:20:29.909775 #15577]  INFO -- test-vagrant-1804: Preparing dna.json
+I, [2019-09-25T09:20:29.910201 #15577]  INFO -- test-vagrant-1804: Resolving cookbook dependencies with Berkshelf 7.0.8...
+I, [2019-09-25T09:20:29.956862 #15577]  INFO -- test-vagrant-1804: Removing non-cookbook files before transfer
+I, [2019-09-25T09:20:29.959096 #15577]  INFO -- test-vagrant-1804: Preparing solo.rb
+I, [2019-09-25T09:20:30.002602 #15577]  INFO -- test-vagrant-1804: ubuntu 18.04 x86_64
+I, [2019-09-25T09:20:30.002700 #15577]  INFO -- test-vagrant-1804: Getting information for chef stable 12 for ubuntu...
+I, [2019-09-25T09:20:30.003642 #15577]  INFO -- test-vagrant-1804: downloading https://omnitruck.chef.io/stable/chef/metadata?v=12&p=ubuntu&pv=18.04&m=x86_64
+I, [2019-09-25T09:20:30.003684 #15577]  INFO -- test-vagrant-1804:   to file /tmp/install.sh.1780/metadata.txt
+I, [2019-09-25T09:20:30.004251 #15577]  INFO -- test-vagrant-1804: trying wget...
+I, [2019-09-25T09:20:30.179218 #15577]  INFO -- test-vagrant-1804: sha1	fdfe0190f4246a5a1c5076cac6806f418c414755
+I, [2019-09-25T09:20:30.180339 #15577]  INFO -- test-vagrant-1804: sha256	10531deefe1a46f300b5179887a1d27489f54418c08489b98d67618c2a54e6ce
+I, [2019-09-25T09:20:30.181424 #15577]  INFO -- test-vagrant-1804: url	https://packages.chef.io/files/stable/chef/12.22.5/ubuntu/18.04/chef_12.22.5-1_amd64.deb
+I, [2019-09-25T09:20:30.182319 #15577]  INFO -- test-vagrant-1804: version	12.22.5
+I, [2019-09-25T09:20:30.185006 #15577]  INFO -- test-vagrant-1804: downloaded metadata file looks valid...
+I, [2019-09-25T09:20:30.194871 #15577]  INFO -- test-vagrant-1804: /tmp/omnibus/cache/chef_12.22.5-1_amd64.deb exists
+I, [2019-09-25T09:20:30.195101 #15577]  INFO -- test-vagrant-1804: Comparing checksum with sha256sum...
+I, [2019-09-25T09:20:30.645175 #15577]  INFO -- test-vagrant-1804: Installing chef 12
+I, [2019-09-25T09:20:30.645263 #15577]  INFO -- test-vagrant-1804: installing with dpkg...
+I, [2019-09-25T09:20:30.785021 #15577]  INFO -- test-vagrant-1804: Selecting previously unselected package chef.
+I, [2019-09-25T09:20:32.002603 #15577]  INFO -- test-vagrant-1804: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 42487 files and directories currently installed.)
+I, [2019-09-25T09:20:32.004829 #15577]  INFO -- test-vagrant-1804: Preparing to unpack .../cache/chef_12.22.5-1_amd64.deb ...
+I, [2019-09-25T09:20:32.012869 #15577]  INFO -- test-vagrant-1804: Unpacking chef (12.22.5-1) ...
+I, [2019-09-25T09:20:40.800829 #15577]  INFO -- test-vagrant-1804: Setting up chef (12.22.5-1) ...
+I, [2019-09-25T09:20:40.952732 #15577]  INFO -- test-vagrant-1804: Thank you for installing Chef!
+I, [2019-09-25T09:20:41.101290 #15577]  INFO -- test-vagrant-1804: Transferring files to <test-vagrant-1804>
+I, [2019-09-25T09:20:44.904881 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:43+00:00] INFO: Forking chef instance to converge...
+I, [2019-09-25T09:20:44.921726 #15577]  INFO -- test-vagrant-1804: Starting Chef Client, version 12.22.5
+I, [2019-09-25T09:20:44.922049 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:43+00:00] INFO: *** Chef 12.22.5 ***
+I, [2019-09-25T09:20:44.922395 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:43+00:00] INFO: Platform: x86_64-linux
+I, [2019-09-25T09:20:44.922793 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:43+00:00] INFO: Chef-client pid: 1863
+I, [2019-09-25T09:20:44.924957 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:43+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+I, [2019-09-25T09:20:47.259588 #15577]  INFO -- test-vagrant-1804: Creating a new client identity for test-vagrant-1804 using the validator key.
+I, [2019-09-25T09:20:47.259919 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Client key /tmp/kitchen/client.pem is not present - registering
+I, [2019-09-25T09:20:47.376451 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: HTTP Request Returned 404 Not Found: Object not found: chefzero://localhost:8889/nodes/test-vagrant-1804
+I, [2019-09-25T09:20:47.379335 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Setting the run_list to ["recipe[test]"] from CLI options
+I, [2019-09-25T09:20:47.399996 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Run List is [recipe[test]]
+I, [2019-09-25T09:20:47.400308 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Run List expands to [test]
+I, [2019-09-25T09:20:47.400633 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Starting Chef Run for test-vagrant-1804
+I, [2019-09-25T09:20:47.401212 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Running start handlers
+I, [2019-09-25T09:20:47.401514 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Start handlers complete.
+I, [2019-09-25T09:20:47.403014 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: HTTP Request Returned 404 Not Found: Object not found: 
+I, [2019-09-25T09:20:47.403685 #15577]  INFO -- test-vagrant-1804: resolving cookbooks for run list: ["test"]
+I, [2019-09-25T09:20:47.539785 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Loading cookbooks [test@0.0.0, aws@6.1.1]
+I, [2019-09-25T09:20:47.542648 #15577]  INFO -- test-vagrant-1804: Synchronizing Cookbooks:
+I, [2019-09-25T09:20:47.560485 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/test/recipes/default.rb in the cache.
+I, [2019-09-25T09:20:47.560829 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/test/metadata.rb in the cache.
+I, [2019-09-25T09:20:47.561041 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/resources/cloudformation_stack.rb in the cache.
+I, [2019-09-25T09:20:47.561307 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/resources/dynamodb_table.rb in the cache.
+I, [2019-09-25T09:20:47.561594 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/resources/ebs_volume.rb in the cache.
+I, [2019-09-25T09:20:47.570834 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/test/metadata.json in the cache.
+I, [2019-09-25T09:20:47.571037 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/resources/cloudwatch.rb in the cache.
+I, [2019-09-25T09:20:47.581456 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/resources/iam_user.rb in the cache.
+I, [2019-09-25T09:20:47.582165 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/resources/instance_monitoring.rb in the cache.
+I, [2019-09-25T09:20:47.582776 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/resources/kinesis_stream.rb in the cache.
+I, [2019-09-25T09:20:47.584560 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/resources/resource_tag.rb in the cache.
+I, [2019-09-25T09:20:47.584608 #15577]  INFO -- test-vagrant-1804:   - test (0.0.0)
+I, [2019-09-25T09:20:47.591251 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/resources/s3_file.rb in the cache.
+I, [2019-09-25T09:20:47.591313 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/resources/elastic_lb.rb in the cache.
+I, [2019-09-25T09:20:47.591344 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/resources/iam_group.rb in the cache.
+I, [2019-09-25T09:20:47.595158 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/providers/ebs_volume.rb in the cache.
+I, [2019-09-25T09:20:47.595222 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/resources/iam_role.rb in the cache.
+I, [2019-09-25T09:20:47.595253 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/resources/iam_policy.rb in the cache.
+I, [2019-09-25T09:20:47.599133 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/providers/iam_role.rb in the cache.
+I, [2019-09-25T09:20:47.599433 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/resources/secondary_ip.rb in the cache.
+I, [2019-09-25T09:20:47.599763 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/providers/cloudformation_stack.rb in the cache.
+I, [2019-09-25T09:20:47.599947 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/providers/dynamodb_table.rb in the cache.
+I, [2019-09-25T09:20:47.603171 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/providers/elastic_ip.rb in the cache.
+I, [2019-09-25T09:20:47.603366 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/resources/elastic_ip.rb in the cache.
+I, [2019-09-25T09:20:47.603555 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/providers/iam_group.rb in the cache.
+I, [2019-09-25T09:20:47.603591 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/providers/iam_policy.rb in the cache.
+I, [2019-09-25T09:20:47.603624 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/providers/iam_user.rb in the cache.
+I, [2019-09-25T09:20:47.611945 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/providers/secondary_ip.rb in the cache.
+I, [2019-09-25T09:20:47.612247 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/providers/kinesis_stream.rb in the cache.
+I, [2019-09-25T09:20:47.612517 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/providers/resource_tag.rb in the cache.
+I, [2019-09-25T09:20:47.616147 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/libraries/ec2.rb in the cache.
+I, [2019-09-25T09:20:47.616202 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/recipes/default.rb in the cache.
+I, [2019-09-25T09:20:47.616232 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/libraries/cloudformation.rb in the cache.
+I, [2019-09-25T09:20:47.616549 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/libraries/cloudwatch.rb in the cache.
+I, [2019-09-25T09:20:47.616585 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/providers/s3_file.rb in the cache.
+I, [2019-09-25T09:20:47.616612 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/recipes/ec2_hints.rb in the cache.
+I, [2019-09-25T09:20:47.619342 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/libraries/iam.rb in the cache.
+I, [2019-09-25T09:20:47.623925 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/libraries/dynamodb.rb in the cache.
+I, [2019-09-25T09:20:47.628231 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/README.md in the cache.
+I, [2019-09-25T09:20:47.629545 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/libraries/matchers.rb in the cache.
+I, [2019-09-25T09:20:47.629737 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/libraries/s3.rb in the cache.
+I, [2019-09-25T09:20:47.631138 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/metadata.json in the cache.
+I, [2019-09-25T09:20:47.631188 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/libraries/elb.rb in the cache.
+I, [2019-09-25T09:20:47.631218 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:20:45+00:00] INFO: Storing updated cookbooks/aws/libraries/kinesis.rb in the cache.
+I, [2019-09-25T09:20:47.634092 #15577]  INFO -- test-vagrant-1804:   - aws (6.1.1)
+I, [2019-09-25T09:20:47.634151 #15577]  INFO -- test-vagrant-1804: Installing Cookbook Gems:
+I, [2019-09-25T09:21:13.777064 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:21:12+00:00] INFO: Don't run Bundler as root. Bundler can ask for sudo if it is needed, and
+I, [2019-09-25T09:21:13.779196 #15577]  INFO -- test-vagrant-1804: installing your bundle as root will break this application for all non-root
+I, [2019-09-25T09:21:13.779267 #15577]  INFO -- test-vagrant-1804: users on this machine.
+I, [2019-09-25T09:21:13.779309 #15577]  INFO -- test-vagrant-1804: Fetching gem metadata from https://rubygems.org/
+I, [2019-09-25T09:21:13.779351 #15577]  INFO -- test-vagrant-1804: Fetching version metadata from https://rubygems.org/
+I, [2019-09-25T09:21:13.779389 #15577]  INFO -- test-vagrant-1804: Resolving dependencies.....
+I, [2019-09-25T09:21:13.779427 #15577]  INFO -- test-vagrant-1804: Installing aws-eventstream 1.0.3
+I, [2019-09-25T09:21:13.779465 #15577]  INFO -- test-vagrant-1804: Installing jmespath 1.4.0
+I, [2019-09-25T09:21:13.779508 #15577]  INFO -- test-vagrant-1804: Using bundler 1.12.5
+I, [2019-09-25T09:21:13.779545 #15577]  INFO -- test-vagrant-1804: Installing aws-sigv4 1.1.0
+I, [2019-09-25T09:21:13.779579 #15577]  INFO -- test-vagrant-1804: Installing aws-sdk-core 2.11.360
+I, [2019-09-25T09:21:13.779613 #15577]  INFO -- test-vagrant-1804: Installing aws-sdk-resources 2.11.360
+I, [2019-09-25T09:21:13.779652 #15577]  INFO -- test-vagrant-1804: Installing aws-sdk 2.11.360
+I, [2019-09-25T09:21:13.779692 #15577]  INFO -- test-vagrant-1804: Bundle complete! 1 Gemfile dependency, 7 gems now installed.
+I, [2019-09-25T09:21:13.779739 #15577]  INFO -- test-vagrant-1804: Use `bundle show [gemname]` to see where a bundled gem is installed.
+I, [2019-09-25T09:21:13.779776 #15577]  INFO -- test-vagrant-1804: 
+I, [2019-09-25T09:21:13.780407 #15577]  INFO -- test-vagrant-1804: Compiling Cookbooks...
+I, [2019-09-25T09:21:13.879973 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:21:12+00:00] INFO: HTTP Request Returned 404 Not Found: Object not found: 
+I, [2019-09-25T09:21:13.880328 #15577]  INFO -- test-vagrant-1804: Converging 4 resources
+I, [2019-09-25T09:21:13.881034 #15577]  INFO -- test-vagrant-1804: Recipe: test::default
+I, [2019-09-25T09:21:13.881885 #15577]  INFO -- test-vagrant-1804:   * apt_update[bundler] action periodic[2019-09-25T13:21:12+00:00] INFO: Processing apt_update[bundler] action periodic (test::default line 1)
+I, [2019-09-25T09:21:13.889823 #15577]  INFO -- test-vagrant-1804: 
+I, [2019-09-25T09:21:13.891112 #15577]  INFO -- test-vagrant-1804:     - update new lists of packages
+I, [2019-09-25T09:21:13.892156 #15577]  INFO -- test-vagrant-1804:     * directory[/var/lib/apt/periodic] action create[2019-09-25T13:21:12+00:00] INFO: Processing directory[/var/lib/apt/periodic] action create (/opt/chef/embedded/lib/ruby/gems/2.3.0/gems/chef-12.22.5/lib/chef/provider/apt_update.rb line 70)
+I, [2019-09-25T09:21:13.895546 #15577]  INFO -- test-vagrant-1804:  (up to date)
+I, [2019-09-25T09:21:13.896563 #15577]  INFO -- test-vagrant-1804:     * directory[/etc/apt/apt.conf.d] action create[2019-09-25T13:21:12+00:00] INFO: Processing directory[/etc/apt/apt.conf.d] action create (/opt/chef/embedded/lib/ruby/gems/2.3.0/gems/chef-12.22.5/lib/chef/provider/apt_update.rb line 70)
+I, [2019-09-25T09:21:13.899356 #15577]  INFO -- test-vagrant-1804:  (up to date)
+I, [2019-09-25T09:21:13.900279 #15577]  INFO -- test-vagrant-1804:     * file[/etc/apt/apt.conf.d/15update-stamp] action create_if_missing[2019-09-25T13:21:12+00:00] INFO: Processing file[/etc/apt/apt.conf.d/15update-stamp] action create_if_missing (/opt/chef/embedded/lib/ruby/gems/2.3.0/gems/chef-12.22.5/lib/chef/provider/apt_update.rb line 75)
+I, [2019-09-25T09:21:13.914022 #15577]  INFO -- test-vagrant-1804:  (up to date)
+I, [2019-09-25T09:21:13.914711 #15577]  INFO -- test-vagrant-1804:     * execute[apt-get -q update] action run[2019-09-25T13:21:12+00:00] INFO: Processing execute[apt-get -q update] action run (/opt/chef/embedded/lib/ruby/gems/2.3.0/gems/chef-12.22.5/lib/chef/provider/apt_update.rb line 80)
+I, [2019-09-25T09:21:14.561157 #15577]  INFO -- test-vagrant-1804: 
+I, [2019-09-25T09:21:14.562341 #15577]  INFO -- test-vagrant-1804:       [execute] Get:1 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+I, [2019-09-25T09:21:14.741801 #15577]  INFO -- test-vagrant-1804:          Hit:2 http://archive.ubuntu.com/ubuntu bionic InRelease
+I, [2019-09-25T09:21:14.890684 #15577]  INFO -- test-vagrant-1804:          Get:3 http://archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
+I, [2019-09-25T09:21:14.988476 #15577]  INFO -- test-vagrant-1804:          Get:4 http://security.ubuntu.com/ubuntu bionic-security/main i386 Packages [374 kB]
+I, [2019-09-25T09:21:15.130292 #15577]  INFO -- test-vagrant-1804:          Get:5 http://security.ubuntu.com/ubuntu bionic-security/main amd64 Packages [516 kB]
+I, [2019-09-25T09:21:15.245923 #15577]  INFO -- test-vagrant-1804:          Get:6 http://security.ubuntu.com/ubuntu bionic-security/main Translation-en [173 kB]
+I, [2019-09-25T09:21:15.310497 #15577]  INFO -- test-vagrant-1804:          Get:7 http://security.ubuntu.com/ubuntu bionic-security/restricted amd64 Packages [7648 B]
+I, [2019-09-25T09:21:15.381945 #15577]  INFO -- test-vagrant-1804:          Get:8 http://security.ubuntu.com/ubuntu bionic-security/restricted Translation-en [3064 B]
+I, [2019-09-25T09:21:15.401391 #15577]  INFO -- test-vagrant-1804:          Get:9 http://security.ubuntu.com/ubuntu bionic-security/universe i386 Packages [591 kB]
+I, [2019-09-25T09:21:15.501360 #15577]  INFO -- test-vagrant-1804:          Get:10 http://security.ubuntu.com/ubuntu bionic-security/universe amd64 Packages [607 kB]
+I, [2019-09-25T09:21:15.514396 #15577]  INFO -- test-vagrant-1804:          Get:11 http://archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
+I, [2019-09-25T09:21:15.601502 #15577]  INFO -- test-vagrant-1804:          Get:12 http://security.ubuntu.com/ubuntu bionic-security/universe Translation-en [202 kB]
+I, [2019-09-25T09:21:15.659986 #15577]  INFO -- test-vagrant-1804:          Get:13 http://security.ubuntu.com/ubuntu bionic-security/multiverse amd64 Packages [4904 B]
+I, [2019-09-25T09:21:15.679326 #15577]  INFO -- test-vagrant-1804:          Get:14 http://security.ubuntu.com/ubuntu bionic-security/multiverse i386 Packages [4152 B]
+I, [2019-09-25T09:21:15.700258 #15577]  INFO -- test-vagrant-1804:          Get:15 http://security.ubuntu.com/ubuntu bionic-security/multiverse Translation-en [2396 B]
+I, [2019-09-25T09:21:15.854260 #15577]  INFO -- test-vagrant-1804:          Get:16 http://archive.ubuntu.com/ubuntu bionic-updates/main i386 Packages [586 kB]
+I, [2019-09-25T09:21:16.411078 #15577]  INFO -- test-vagrant-1804:          Get:17 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 Packages [740 kB]
+I, [2019-09-25T09:21:17.125806 #15577]  INFO -- test-vagrant-1804:          Get:18 http://archive.ubuntu.com/ubuntu bionic-updates/main Translation-en [266 kB]
+I, [2019-09-25T09:21:17.626029 #15577]  INFO -- test-vagrant-1804:          Get:19 http://archive.ubuntu.com/ubuntu bionic-updates/restricted i386 Packages [8600 B]
+I, [2019-09-25T09:21:17.797856 #15577]  INFO -- test-vagrant-1804:          Get:20 http://archive.ubuntu.com/ubuntu bionic-updates/restricted amd64 Packages [14.5 kB]
+I, [2019-09-25T09:21:17.981257 #15577]  INFO -- test-vagrant-1804:          Get:21 http://archive.ubuntu.com/ubuntu bionic-updates/restricted Translation-en [4736 B]
+I, [2019-09-25T09:21:18.134860 #15577]  INFO -- test-vagrant-1804:          Get:22 http://archive.ubuntu.com/ubuntu bionic-updates/universe amd64 Packages [1007 kB]
+I, [2019-09-25T09:21:18.821814 #15577]  INFO -- test-vagrant-1804:          Get:23 http://archive.ubuntu.com/ubuntu bionic-updates/universe i386 Packages [980 kB]
+I, [2019-09-25T09:21:19.454703 #15577]  INFO -- test-vagrant-1804:          Get:24 http://archive.ubuntu.com/ubuntu bionic-updates/universe Translation-en [309 kB]
+I, [2019-09-25T09:21:19.958620 #15577]  INFO -- test-vagrant-1804:          Get:25 http://archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 Packages [7528 B]
+I, [2019-09-25T09:21:20.118854 #15577]  INFO -- test-vagrant-1804:          Get:26 http://archive.ubuntu.com/ubuntu bionic-updates/multiverse i386 Packages [6788 B]
+I, [2019-09-25T09:21:20.282158 #15577]  INFO -- test-vagrant-1804:          Get:27 http://archive.ubuntu.com/ubuntu bionic-updates/multiverse Translation-en [3868 B]
+I, [2019-09-25T09:21:20.440802 #15577]  INFO -- test-vagrant-1804:          Get:28 http://archive.ubuntu.com/ubuntu bionic-backports/universe amd64 Packages [4020 B]
+I, [2019-09-25T09:21:20.600963 #15577]  INFO -- test-vagrant-1804:          Get:29 http://archive.ubuntu.com/ubuntu bionic-backports/universe i386 Packages [4020 B]
+I, [2019-09-25T09:21:20.757923 #15577]  INFO -- test-vagrant-1804:          Get:30 http://archive.ubuntu.com/ubuntu bionic-backports/universe Translation-en [1856 B]
+I, [2019-09-25T09:21:30.919078 #15577]  INFO -- test-vagrant-1804:          Fetched 6679 kB in 6s (1056 kB/s)
+I, [2019-09-25T09:21:33.336256 #15577]  INFO -- test-vagrant-1804:          Reading package lists...
+I, [2019-09-25T09:21:33.442825 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:21:31+00:00] INFO: execute[apt-get -q update] ran successfully
+I, [2019-09-25T09:21:33.443840 #15577]  INFO -- test-vagrant-1804:       - execute apt-get -q update
+I, [2019-09-25T09:21:33.444898 #15577]  INFO -- test-vagrant-1804:   
+I, [2019-09-25T09:21:33.446834 #15577]  INFO -- test-vagrant-1804:   * apt_package[bundler] action install[2019-09-25T13:21:31+00:00] INFO: Processing apt_package[bundler] action install (test::default line 3)
+I, [2019-09-25T09:25:44.760082 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:25:43+00:00] INFO: apt_package[bundler] installed bundler at 1.16.1-1
+I, [2019-09-25T09:25:44.761099 #15577]  INFO -- test-vagrant-1804: 
+I, [2019-09-25T09:25:44.761521 #15577]  INFO -- test-vagrant-1804:     - install version 1.16.1-1 of package bundler
+I, [2019-09-25T09:25:44.762325 #15577]  INFO -- test-vagrant-1804:   * file[/home/vagrant/Gemfile] action create[2019-09-25T13:25:43+00:00] INFO: Processing file[/home/vagrant/Gemfile] action create (test::default line 6)
+I, [2019-09-25T09:25:44.765595 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:25:43+00:00] INFO: file[/home/vagrant/Gemfile] created file /home/vagrant/Gemfile
+I, [2019-09-25T09:25:44.765792 #15577]  INFO -- test-vagrant-1804: 
+I, [2019-09-25T09:25:44.768235 #15577]  INFO -- test-vagrant-1804:     - create new file /home/vagrant/Gemfile[2019-09-25T13:25:43+00:00] INFO: file[/home/vagrant/Gemfile] updated file contents /home/vagrant/Gemfile
+I, [2019-09-25T09:25:44.769160 #15577]  INFO -- test-vagrant-1804: 
+I, [2019-09-25T09:25:44.769490 #15577]  INFO -- test-vagrant-1804:     - update content in file /home/vagrant/Gemfile from none to 91a9ed
+I, [2019-09-25T09:25:44.770221 #15577]  INFO -- test-vagrant-1804:     --- /home/vagrant/Gemfile	2019-09-25 13:25:43.259042000 +0000
+I, [2019-09-25T09:25:44.771218 #15577]  INFO -- test-vagrant-1804:     +++ /home/vagrant/.chef-Gemfile20190925-1863-1iwxfzo	2019-09-25 13:25:43.259042000 +0000
+I, [2019-09-25T09:25:44.771635 #15577]  INFO -- test-vagrant-1804:     @@ -1 +1,3 @@
+I, [2019-09-25T09:25:44.772049 #15577]  INFO -- test-vagrant-1804:     +    source 'https://rubygems.org'
+I, [2019-09-25T09:25:44.773874 #15577]  INFO -- test-vagrant-1804:     +    gem 'rake', '10.0.4'
+I, [2019-09-25T09:25:44.774898 #15577]  INFO -- test-vagrant-1804:   * execute[bundle install] action run[2019-09-25T13:25:43+00:00] INFO: Processing execute[bundle install] action run (test::default line 13)
+I, [2019-09-25T09:25:45.729258 #15577]  INFO -- test-vagrant-1804: 
+I, [2019-09-25T09:25:45.729584 #15577]  INFO -- test-vagrant-1804:     [execute] There was an error while trying to write to
+I, [2019-09-25T09:25:45.729641 #15577]  INFO -- test-vagrant-1804:        `/home/vagrant/.bundle/cache/compact_index/rubygems.org.443.29b0360b937aa4d161703e6160654e47/info-special-characters`.
+I, [2019-09-25T09:25:45.729905 #15577]  INFO -- test-vagrant-1804:        It is likely that you need to grant write permissions for that path.
+I, [2019-09-25T09:25:45.771497 #15577]  INFO -- test-vagrant-1804:     
+I, [2019-09-25T09:25:45.772698 #15577]  INFO -- test-vagrant-1804:     ================================================================================
+I, [2019-09-25T09:25:45.772990 #15577]  INFO -- test-vagrant-1804:     Error executing action `run` on resource 'execute[bundle install]'
+I, [2019-09-25T09:25:45.773590 #15577]  INFO -- test-vagrant-1804:     ================================================================================
+I, [2019-09-25T09:25:45.773799 #15577]  INFO -- test-vagrant-1804:     
+I, [2019-09-25T09:25:45.774256 #15577]  INFO -- test-vagrant-1804:     Mixlib::ShellOut::ShellCommandFailed
+I, [2019-09-25T09:25:45.774991 #15577]  INFO -- test-vagrant-1804:     ------------------------------------
+I, [2019-09-25T09:25:45.775263 #15577]  INFO -- test-vagrant-1804:     Expected process to exit with [0], but received '23'
+I, [2019-09-25T09:25:45.775528 #15577]  INFO -- test-vagrant-1804:     ---- Begin output of bundle install ----
+I, [2019-09-25T09:25:45.775817 #15577]  INFO -- test-vagrant-1804:     STDOUT: There was an error while trying to write to
+I, [2019-09-25T09:25:45.775954 #15577]  INFO -- test-vagrant-1804:     `/home/vagrant/.bundle/cache/compact_index/rubygems.org.443.29b0360b937aa4d161703e6160654e47/info-special-characters`.
+I, [2019-09-25T09:25:45.776094 #15577]  INFO -- test-vagrant-1804:     It is likely that you need to grant write permissions for that path.
+I, [2019-09-25T09:25:45.776128 #15577]  INFO -- test-vagrant-1804:     STDERR: 
+I, [2019-09-25T09:25:45.776314 #15577]  INFO -- test-vagrant-1804:     ---- End output of bundle install ----
+I, [2019-09-25T09:25:45.776347 #15577]  INFO -- test-vagrant-1804:     Ran bundle install returned 23
+I, [2019-09-25T09:25:45.776372 #15577]  INFO -- test-vagrant-1804:     
+I, [2019-09-25T09:25:45.776530 #15577]  INFO -- test-vagrant-1804:     Resource Declaration:
+I, [2019-09-25T09:25:45.776762 #15577]  INFO -- test-vagrant-1804:     ---------------------
+I, [2019-09-25T09:25:45.776937 #15577]  INFO -- test-vagrant-1804:     # In /tmp/kitchen/cache/cookbooks/test/recipes/default.rb
+I, [2019-09-25T09:25:45.776970 #15577]  INFO -- test-vagrant-1804:     
+I, [2019-09-25T09:25:45.777137 #15577]  INFO -- test-vagrant-1804:      13: execute 'bundle install' do
+I, [2019-09-25T09:25:45.777174 #15577]  INFO -- test-vagrant-1804:      14:   command 'bundle install'
+I, [2019-09-25T09:25:45.777200 #15577]  INFO -- test-vagrant-1804:      15:   cwd '/home/vagrant'
+I, [2019-09-25T09:25:45.777224 #15577]  INFO -- test-vagrant-1804:      16:   user 'vagrant'
+I, [2019-09-25T09:25:45.777248 #15577]  INFO -- test-vagrant-1804:      17:   environment ({'HOME' => '/home/vagrant'})
+I, [2019-09-25T09:25:45.777960 #15577]  INFO -- test-vagrant-1804:      18: end
+I, [2019-09-25T09:25:45.777995 #15577]  INFO -- test-vagrant-1804:     
+I, [2019-09-25T09:25:45.778665 #15577]  INFO -- test-vagrant-1804:     Compiled Resource:
+I, [2019-09-25T09:25:45.778706 #15577]  INFO -- test-vagrant-1804:     ------------------
+I, [2019-09-25T09:25:45.778899 #15577]  INFO -- test-vagrant-1804:     # Declared in /tmp/kitchen/cache/cookbooks/test/recipes/default.rb:13:in `from_file'
+I, [2019-09-25T09:25:45.778934 #15577]  INFO -- test-vagrant-1804:     
+I, [2019-09-25T09:25:45.778959 #15577]  INFO -- test-vagrant-1804:     execute("bundle install") do
+I, [2019-09-25T09:25:45.779221 #15577]  INFO -- test-vagrant-1804:       action [:run]
+I, [2019-09-25T09:25:45.779255 #15577]  INFO -- test-vagrant-1804:       retries 0
+I, [2019-09-25T09:25:45.779280 #15577]  INFO -- test-vagrant-1804:       retry_delay 2
+I, [2019-09-25T09:25:45.779304 #15577]  INFO -- test-vagrant-1804:       default_guard_interpreter :execute
+I, [2019-09-25T09:25:45.779329 #15577]  INFO -- test-vagrant-1804:       command "bundle install"
+I, [2019-09-25T09:25:45.780215 #15577]  INFO -- test-vagrant-1804:       backup 5
+I, [2019-09-25T09:25:45.780259 #15577]  INFO -- test-vagrant-1804:       cwd "/home/vagrant"
+I, [2019-09-25T09:25:45.780391 #15577]  INFO -- test-vagrant-1804:       environment {"HOME"=>"/home/vagrant"}
+I, [2019-09-25T09:25:45.780943 #15577]  INFO -- test-vagrant-1804:       returns 0
+I, [2019-09-25T09:25:45.780978 #15577]  INFO -- test-vagrant-1804:       user "vagrant"
+I, [2019-09-25T09:25:45.781004 #15577]  INFO -- test-vagrant-1804:       declared_type :execute
+I, [2019-09-25T09:25:45.781029 #15577]  INFO -- test-vagrant-1804:       cookbook_name "test"
+I, [2019-09-25T09:25:45.781259 #15577]  INFO -- test-vagrant-1804:       recipe_name "default"
+I, [2019-09-25T09:25:45.781294 #15577]  INFO -- test-vagrant-1804:     end
+I, [2019-09-25T09:25:45.781441 #15577]  INFO -- test-vagrant-1804:     
+I, [2019-09-25T09:25:45.781633 #15577]  INFO -- test-vagrant-1804:     System Info:
+I, [2019-09-25T09:25:45.781888 #15577]  INFO -- test-vagrant-1804:     ------------
+I, [2019-09-25T09:25:45.782190 #15577]  INFO -- test-vagrant-1804:     chef_version=12.22.5
+I, [2019-09-25T09:25:45.782458 #15577]  INFO -- test-vagrant-1804:     platform=ubuntu
+I, [2019-09-25T09:25:45.782616 #15577]  INFO -- test-vagrant-1804:     platform_version=18.04
+I, [2019-09-25T09:25:45.782650 #15577]  INFO -- test-vagrant-1804:     ruby=ruby 2.3.6p384 (2017-12-14 revision 61254) [x86_64-linux]
+I, [2019-09-25T09:25:45.782677 #15577]  INFO -- test-vagrant-1804:     program_name=chef-solo worker: ppid=1857;start=13:20:43;
+I, [2019-09-25T09:25:45.784065 #15577]  INFO -- test-vagrant-1804:     executable=/opt/chef/bin/chef-solo
+I, [2019-09-25T09:25:45.784114 #15577]  INFO -- test-vagrant-1804:     
+I, [2019-09-25T09:25:45.784333 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:25:44+00:00] INFO: Running queued delayed notifications before re-raising exception
+I, [2019-09-25T09:25:45.784886 #15577]  INFO -- test-vagrant-1804: 
+I, [2019-09-25T09:25:45.785542 #15577]  INFO -- test-vagrant-1804: Running handlers:
+I, [2019-09-25T09:25:45.785753 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:25:44+00:00] ERROR: Running exception handlers
+I, [2019-09-25T09:25:45.785958 #15577]  INFO -- test-vagrant-1804: Running handlers complete
+I, [2019-09-25T09:25:45.786209 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:25:44+00:00] ERROR: Exception handlers complete
+I, [2019-09-25T09:25:45.786485 #15577]  INFO -- test-vagrant-1804: Chef Client failed. 4 resources updated in 05 minutes 01 seconds
+I, [2019-09-25T09:25:45.787449 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:25:44+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2019-09-25T09:25:45.787957 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:25:44+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+I, [2019-09-25T09:25:45.788459 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:25:44+00:00] ERROR: execute[bundle install] (test::default line 13) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '23'
+I, [2019-09-25T09:25:45.788722 #15577]  INFO -- test-vagrant-1804: ---- Begin output of bundle install ----
+I, [2019-09-25T09:25:45.788981 #15577]  INFO -- test-vagrant-1804: STDOUT: There was an error while trying to write to
+I, [2019-09-25T09:25:45.789238 #15577]  INFO -- test-vagrant-1804: `/home/vagrant/.bundle/cache/compact_index/rubygems.org.443.29b0360b937aa4d161703e6160654e47/info-special-characters`.
+I, [2019-09-25T09:25:45.790668 #15577]  INFO -- test-vagrant-1804: It is likely that you need to grant write permissions for that path.
+I, [2019-09-25T09:25:45.790719 #15577]  INFO -- test-vagrant-1804: STDERR: 
+I, [2019-09-25T09:25:45.790749 #15577]  INFO -- test-vagrant-1804: ---- End output of bundle install ----
+I, [2019-09-25T09:25:45.790774 #15577]  INFO -- test-vagrant-1804: Ran bundle install returned 23
+I, [2019-09-25T09:25:45.858169 #15577]  INFO -- test-vagrant-1804: [2019-09-25T13:25:44+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+E, [2019-09-25T09:25:45.912549 #15577] ERROR -- test-vagrant-1804: Converge failed on instance <test-vagrant-1804>.
+E, [2019-09-25T09:25:45.912689 #15577] ERROR -- test-vagrant-1804: ------Exception-------
+E, [2019-09-25T09:25:45.912718 #15577] ERROR -- test-vagrant-1804: Class: Kitchen::ActionFailed
+E, [2019-09-25T09:25:45.912738 #15577] ERROR -- test-vagrant-1804: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json 
+']
+E, [2019-09-25T09:25:45.912758 #15577] ERROR -- test-vagrant-1804: ----------------------
+E, [2019-09-25T09:25:45.912778 #15577] ERROR -- test-vagrant-1804: ------Backtrace-------
+E, [2019-09-25T09:25:45.912796 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/provisioner/base.rb:95:in `rescue in call'
+E, [2019-09-25T09:25:45.912815 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/provisioner/base.rb:94:in `call'
+E, [2019-09-25T09:25:45.912834 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:409:in `block in converge_action'
+E, [2019-09-25T09:25:45.912854 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:552:in `synchronize_or_call'
+E, [2019-09-25T09:25:45.912877 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:514:in `block in action'
+E, [2019-09-25T09:25:45.912898 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/2.6.0/benchmark.rb:293:in `measure'
+E, [2019-09-25T09:25:45.912917 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:513:in `action'
+E, [2019-09-25T09:25:45.912936 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:404:in `converge_action'
+E, [2019-09-25T09:25:45.912967 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:382:in `block (2 levels) in transition_to'
+E, [2019-09-25T09:25:45.912988 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/lifecycle_hooks.rb:45:in `run_with_hooks'
+E, [2019-09-25T09:25:45.913008 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:381:in `block in transition_to'
+E, [2019-09-25T09:25:45.913028 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:380:in `each'
+E, [2019-09-25T09:25:45.913048 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:380:in `transition_to'
+E, [2019-09-25T09:25:45.913067 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:162:in `verify'
+E, [2019-09-25T09:25:45.913086 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:191:in `block in test'
+E, [2019-09-25T09:25:45.913105 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/2.6.0/benchmark.rb:293:in `measure'
+E, [2019-09-25T09:25:45.913125 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:187:in `test'
+E, [2019-09-25T09:25:45.913144 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/command.rb:197:in `public_send'
+E, [2019-09-25T09:25:45.913163 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2019-09-25T09:25:45.913183 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2019-09-25T09:25:45.913202 #15577] ERROR -- test-vagrant-1804: ----End Backtrace-----
+E, [2019-09-25T09:25:45.913221 #15577] ERROR -- test-vagrant-1804: ---Nested Exception---
+E, [2019-09-25T09:25:45.913240 #15577] ERROR -- test-vagrant-1804: Class: Kitchen::Transport::SshFailed
+E, [2019-09-25T09:25:45.913258 #15577] ERROR -- test-vagrant-1804: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json 
+']
+E, [2019-09-25T09:25:45.913277 #15577] ERROR -- test-vagrant-1804: ----------------------
+E, [2019-09-25T09:25:45.913295 #15577] ERROR -- test-vagrant-1804: ------Backtrace-------
+E, [2019-09-25T09:25:45.913314 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/provisioner/base.rb:95:in `rescue in call'
+E, [2019-09-25T09:25:45.913332 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/provisioner/base.rb:94:in `call'
+E, [2019-09-25T09:25:45.913352 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:409:in `block in converge_action'
+E, [2019-09-25T09:25:45.913371 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:552:in `synchronize_or_call'
+E, [2019-09-25T09:25:45.913390 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:514:in `block in action'
+E, [2019-09-25T09:25:45.913409 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/2.6.0/benchmark.rb:293:in `measure'
+E, [2019-09-25T09:25:45.913428 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:513:in `action'
+E, [2019-09-25T09:25:45.913453 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:404:in `converge_action'
+E, [2019-09-25T09:25:45.913474 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:382:in `block (2 levels) in transition_to'
+E, [2019-09-25T09:25:45.913494 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/lifecycle_hooks.rb:45:in `run_with_hooks'
+E, [2019-09-25T09:25:45.913513 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:381:in `block in transition_to'
+E, [2019-09-25T09:25:45.913532 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:380:in `each'
+E, [2019-09-25T09:25:45.913552 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:380:in `transition_to'
+E, [2019-09-25T09:25:45.913571 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:162:in `verify'
+E, [2019-09-25T09:25:45.913591 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:191:in `block in test'
+E, [2019-09-25T09:25:45.913610 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/2.6.0/benchmark.rb:293:in `measure'
+E, [2019-09-25T09:25:45.913629 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:187:in `test'
+E, [2019-09-25T09:25:45.913648 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/command.rb:197:in `public_send'
+E, [2019-09-25T09:25:45.913667 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2019-09-25T09:25:45.913685 #15577] ERROR -- test-vagrant-1804: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2019-09-25T09:25:45.913704 #15577] ERROR -- test-vagrant-1804: ----End Backtrace-----
+I, [2019-09-25T09:25:45.914577 #15577]  INFO -- test-vagrant-1804: -----> Destroying <test-vagrant-1804>...
+I, [2019-09-25T09:25:51.300342 #15577]  INFO -- test-vagrant-1804: ==> default: Forcing shutdown of VM...
+I, [2019-09-25T09:25:52.948526 #15577]  INFO -- test-vagrant-1804: ==> default: Destroying VM and associated drives...
+I, [2019-09-25T09:25:53.717838 #15577]  INFO -- test-vagrant-1804: Vagrant instance <test-vagrant-1804> destroyed.
+I, [2019-09-25T09:25:53.718551 #15577]  INFO -- test-vagrant-1804: Finished destroying <test-vagrant-1804> (0m7.80s).

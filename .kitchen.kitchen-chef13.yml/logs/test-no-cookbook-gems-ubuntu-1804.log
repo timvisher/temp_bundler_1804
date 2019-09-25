@@ -1,0 +1,123 @@
+I, [2019-09-25T09:57:20.452731 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: -----> Cleaning up any prior instances of <test-no-cookbook-gems-ubuntu-1804>
+I, [2019-09-25T09:57:20.453297 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: -----> Destroying <test-no-cookbook-gems-ubuntu-1804>...
+I, [2019-09-25T09:58:32.570753 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Finished destroying <test-no-cookbook-gems-ubuntu-1804> (1m12.12s).
+I, [2019-09-25T09:58:32.570966 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: -----> Testing <test-no-cookbook-gems-ubuntu-1804>
+I, [2019-09-25T09:58:32.571082 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: -----> Creating <test-no-cookbook-gems-ubuntu-1804>...
+I, [2019-09-25T09:58:36.043290 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2019-09-25T09:58:36.315977 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: ==> default: Importing base box 'ubuntu/bionic64'...
+I, [2019-09-25T09:58:54.845183 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: [KProgress: 10%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2019-09-25T09:58:55.761477 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: ==> default: Checking if box 'ubuntu/bionic64' version '20190918.0.0' is up to date...
+I, [2019-09-25T09:58:57.157256 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: ==> default: Setting the name of the VM: kitchen-temp_bundler_1804-test-no-cookbook-gems-ubuntu-1804-61393f20-7ad7-4d9a-a746-ba01d6fdd488
+I, [2019-09-25T09:58:58.602891 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: ==> default: Fixed port collision for 22 => 2222. Now on port 2202.
+I, [2019-09-25T09:58:58.680855 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: ==> default: Clearing any previously set network interfaces...
+I, [2019-09-25T09:58:58.800973 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: ==> default: Preparing network interfaces based on configuration...
+I, [2019-09-25T09:58:58.801468 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     default: Adapter 1: nat
+I, [2019-09-25T09:58:58.902403 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: ==> default: Forwarding ports...
+I, [2019-09-25T09:58:59.003554 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     default: 22 (guest) => 2202 (host) (adapter 1)
+I, [2019-09-25T09:58:59.348646 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: ==> default: Running 'pre-boot' VM customizations...
+I, [2019-09-25T09:58:59.855881 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: ==> default: Booting VM...
+I, [2019-09-25T09:59:00.249049 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2019-09-25T09:59:00.753786 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     default: SSH address: 127.0.0.1:2202
+I, [2019-09-25T09:59:00.754436 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     default: SSH username: vagrant
+I, [2019-09-25T09:59:00.754476 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     default: SSH auth method: private key
+I, [2019-09-25T09:59:22.804309 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     default: Warning: Connection reset. Retrying...
+I, [2019-09-25T09:59:23.321456 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     default: Warning: Remote connection disconnect. Retrying...
+I, [2019-09-25T09:59:33.979812 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     default: 
+I, [2019-09-25T09:59:33.979908 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2019-09-25T09:59:33.979942 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     default: this with a newly generated keypair for better security.
+I, [2019-09-25T09:59:35.731581 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     default: 
+I, [2019-09-25T09:59:35.731830 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     default: Inserting generated public key within guest...
+I, [2019-09-25T09:59:36.370271 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     default: Removing insecure key from the guest if it's present...
+I, [2019-09-25T09:59:37.340245 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2019-09-25T09:59:39.254486 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: ==> default: Machine booted and ready!
+I, [2019-09-25T09:59:39.255334 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: ==> default: Checking for guest additions in VM...
+I, [2019-09-25T09:59:39.441058 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     default: The guest additions on this VM do not match the installed version of
+I, [2019-09-25T09:59:39.441147 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     default: VirtualBox! In most cases this is fine, but in rare cases it can
+I, [2019-09-25T09:59:39.441183 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     default: prevent things such as shared folders from working properly. If you see
+I, [2019-09-25T09:59:39.441212 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     default: shared folder errors, please make sure the guest additions within the
+I, [2019-09-25T09:59:39.441240 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     default: virtual machine match the version of VirtualBox you have installed on
+I, [2019-09-25T09:59:39.441266 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     default: your host and reload your VM.
+I, [2019-09-25T09:59:39.441292 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     default: 
+I, [2019-09-25T09:59:39.441318 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     default: Guest Additions Version: 5.2.8_KernelUbuntu r120774
+I, [2019-09-25T09:59:39.441343 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     default: VirtualBox Version: 6.0
+I, [2019-09-25T09:59:39.442445 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: ==> default: Setting hostname...
+I, [2019-09-25T09:59:41.930015 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2019-09-25T09:59:47.305955 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: [SSH] Established
+I, [2019-09-25T09:59:47.307007 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Vagrant instance <test-no-cookbook-gems-ubuntu-1804> created.
+I, [2019-09-25T09:59:47.308105 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Finished creating <test-no-cookbook-gems-ubuntu-1804> (1m14.74s).
+I, [2019-09-25T09:59:47.308345 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: -----> Converging <test-no-cookbook-gems-ubuntu-1804>...
+I, [2019-09-25T09:59:47.316082 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Preparing files for transfer
+I, [2019-09-25T09:59:47.316411 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Preparing dna.json
+I, [2019-09-25T09:59:47.316879 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Resolving cookbook dependencies with Berkshelf 7.0.8...
+I, [2019-09-25T09:59:47.393917 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Removing non-cookbook files before transfer
+I, [2019-09-25T09:59:47.396234 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Preparing solo.rb
+I, [2019-09-25T09:59:47.457208 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: ubuntu 18.04 x86_64
+I, [2019-09-25T09:59:47.457460 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Getting information for chef stable 13 for ubuntu...
+I, [2019-09-25T09:59:47.457673 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: downloading https://omnitruck.chef.io/stable/chef/metadata?v=13&p=ubuntu&pv=18.04&m=x86_64
+I, [2019-09-25T09:59:47.457729 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:   to file /tmp/install.sh.2078/metadata.txt
+I, [2019-09-25T09:59:47.459088 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: trying wget...
+I, [2019-09-25T09:59:47.629770 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: sha1	d4245bff62f19cd84d4500f3abb23d5e0ee557c1
+I, [2019-09-25T09:59:47.629853 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: sha256	a2373e135bc22768f186f099b5ac824ce38e57969d92a1d1c23bfec50094199c
+I, [2019-09-25T09:59:47.629897 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: url	https://packages.chef.io/files/stable/chef/13.12.14/ubuntu/18.04/chef_13.12.14-1_amd64.deb
+I, [2019-09-25T09:59:47.630117 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: version	13.12.14
+I, [2019-09-25T09:59:47.634040 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: downloaded metadata file looks valid...
+I, [2019-09-25T09:59:47.647444 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: downloading https://packages.chef.io/files/stable/chef/13.12.14/ubuntu/18.04/chef_13.12.14-1_amd64.deb
+I, [2019-09-25T09:59:47.647521 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:   to file /tmp/install.sh.2078/chef_13.12.14-1_amd64.deb
+I, [2019-09-25T09:59:47.647749 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: trying wget...
+I, [2019-09-25T09:59:55.804245 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Comparing checksum with sha256sum...
+I, [2019-09-25T09:59:56.088964 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Installing chef 13
+I, [2019-09-25T09:59:56.089060 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: installing with dpkg...
+I, [2019-09-25T09:59:56.227866 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Selecting previously unselected package chef.
+I, [2019-09-25T09:59:56.743669 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 59689 files and directories currently installed.)
+I, [2019-09-25T09:59:56.747151 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Preparing to unpack .../chef_13.12.14-1_amd64.deb ...
+I, [2019-09-25T09:59:56.759409 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Unpacking chef (13.12.14-1) ...
+I, [2019-09-25T10:00:03.291001 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Setting up chef (13.12.14-1) ...
+I, [2019-09-25T10:00:03.515520 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Thank you for installing Chef!
+I, [2019-09-25T10:00:03.761740 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Transferring files to <test-no-cookbook-gems-ubuntu-1804>
+I, [2019-09-25T10:00:08.379026 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Starting Chef Client, version 13.12.14
+I, [2019-09-25T10:00:09.595561 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Creating a new client identity for test-no-cookbook-gems-ubuntu-1804 using the validator key.
+I, [2019-09-25T10:00:09.697748 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: resolving cookbooks for run list: ["test_no_cookbook_gems"]
+I, [2019-09-25T10:00:09.734722 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Synchronizing Cookbooks:
+I, [2019-09-25T10:00:09.745279 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:   - test_no_cookbook_gems (0.0.0)
+I, [2019-09-25T10:00:09.754036 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Installing Cookbook Gems:
+I, [2019-09-25T10:00:09.754311 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Compiling Cookbooks...
+I, [2019-09-25T10:00:09.755976 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Converging 4 resources
+I, [2019-09-25T10:00:09.756576 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Recipe: test_no_cookbook_gems::default
+I, [2019-09-25T10:00:09.868171 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:   * apt_update[bundler] action periodic
+I, [2019-09-25T10:00:09.869428 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     - update new lists of packages
+I, [2019-09-25T10:00:09.873158 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     * directory[/var/lib/apt/periodic] action create (up to date)
+I, [2019-09-25T10:00:09.885170 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     * directory[/etc/apt/apt.conf.d] action create (up to date)
+I, [2019-09-25T10:00:09.885264 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     * file[/etc/apt/apt.conf.d/15update-stamp] action create_if_missing (up to date)
+I, [2019-09-25T10:00:34.102439 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     * execute[apt-get -q update] action run
+I, [2019-09-25T10:00:34.104047 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:       - execute apt-get -q update
+I, [2019-09-25T10:00:34.104322 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:   
+I, [2019-09-25T10:09:06.875382 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:   * apt_package[bundler] action install
+I, [2019-09-25T10:09:06.876269 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     - install version 1.16.1-1 of package bundler
+I, [2019-09-25T10:09:06.881003 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:   * file[/home/vagrant/Gemfile] action create
+I, [2019-09-25T10:09:06.883803 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     - create new file /home/vagrant/Gemfile
+I, [2019-09-25T10:09:06.884194 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     - update content in file /home/vagrant/Gemfile from none to 91a9ed
+I, [2019-09-25T10:09:06.884453 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     --- /home/vagrant/Gemfile	2019-09-25 14:09:05.860000000 +0000
+I, [2019-09-25T10:09:06.884518 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     +++ /home/vagrant/.chef-Gemfile20190925-2163-1eiaa0m	2019-09-25 14:09:05.860000000 +0000
+I, [2019-09-25T10:09:06.885306 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     @@ -1 +1,3 @@
+I, [2019-09-25T10:09:06.885665 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     +    source 'https://rubygems.org'
+I, [2019-09-25T10:09:06.886643 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     +    gem 'rake', '10.0.4'
+I, [2019-09-25T10:09:10.791866 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:   * execute[bundle install] action run
+I, [2019-09-25T10:09:10.792003 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804:     - execute bundle install
+I, [2019-09-25T10:09:10.929627 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: 
+I, [2019-09-25T10:09:10.929717 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Running handlers:
+I, [2019-09-25T10:09:10.929896 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Running handlers complete
+I, [2019-09-25T10:09:10.930066 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Chef Client finished, 5/8 resources updated in 09 minutes 02 seconds
+I, [2019-09-25T10:09:10.988268 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Downloading files from <test-no-cookbook-gems-ubuntu-1804>
+I, [2019-09-25T10:09:10.993096 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Finished converging <test-no-cookbook-gems-ubuntu-1804> (9m23.68s).
+I, [2019-09-25T10:09:10.993321 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: -----> Setting up <test-no-cookbook-gems-ubuntu-1804>...
+I, [2019-09-25T10:09:10.998952 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Finished setting up <test-no-cookbook-gems-ubuntu-1804> (0m0.00s).
+I, [2019-09-25T10:09:10.999157 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: -----> Verifying <test-no-cookbook-gems-ubuntu-1804>...
+I, [2019-09-25T10:09:10.999903 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Preparing files for transfer
+I, [2019-09-25T10:09:11.000468 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Transferring files to <test-no-cookbook-gems-ubuntu-1804>
+I, [2019-09-25T10:09:11.001388 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Finished verifying <test-no-cookbook-gems-ubuntu-1804> (0m0.00s).
+I, [2019-09-25T10:09:11.001525 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Finished testing <test-no-cookbook-gems-ubuntu-1804> (11m50.55s).
+I, [2019-09-25T10:09:11.002129 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: -----> Destroying <test-no-cookbook-gems-ubuntu-1804>...
+I, [2019-09-25T10:09:16.541129 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: ==> default: Forcing shutdown of VM...
+I, [2019-09-25T10:09:18.125274 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: ==> default: Destroying VM and associated drives...
+I, [2019-09-25T10:09:18.627082 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Vagrant instance <test-no-cookbook-gems-ubuntu-1804> destroyed.
+I, [2019-09-25T10:09:18.628036 #10408]  INFO -- test-no-cookbook-gems-ubuntu-1804: Finished destroying <test-no-cookbook-gems-ubuntu-1804> (0m7.62s).

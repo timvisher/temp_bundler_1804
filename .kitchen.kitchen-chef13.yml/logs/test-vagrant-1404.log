@@ -1,0 +1,122 @@
+I, [2019-09-25T09:48:22.470391 #10408]  INFO -- test-vagrant-1404: -----> Cleaning up any prior instances of <test-vagrant-1404>
+I, [2019-09-25T09:48:22.473457 #10408]  INFO -- test-vagrant-1404: -----> Destroying <test-vagrant-1404>...
+I, [2019-09-25T09:49:44.002520 #10408]  INFO -- test-vagrant-1404: Finished destroying <test-vagrant-1404> (1m21.53s).
+I, [2019-09-25T09:49:44.003212 #10408]  INFO -- test-vagrant-1404: -----> Testing <test-vagrant-1404>
+I, [2019-09-25T09:49:44.004352 #10408]  INFO -- test-vagrant-1404: -----> Creating <test-vagrant-1404>...
+I, [2019-09-25T09:49:47.305158 #10408]  INFO -- test-vagrant-1404: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2019-09-25T09:49:47.518435 #10408]  INFO -- test-vagrant-1404: ==> default: Importing base box 'bento/ubuntu-14.04'...
+I, [2019-09-25T09:50:11.357876 #10408]  INFO -- test-vagrant-1404: [KProgress: 10%[KProgress: 30%[KProgress: 40%[KProgress: 50%[KProgress: 60%[KProgress: 70%[KProgress: 80%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2019-09-25T09:50:11.919320 #10408]  INFO -- test-vagrant-1404: ==> default: Checking if box 'bento/ubuntu-14.04' version '201808.24.0' is up to date...
+I, [2019-09-25T09:50:13.335487 #10408]  INFO -- test-vagrant-1404: ==> default: Setting the name of the VM: kitchen-temp_bundler_1804-test-vagrant-1404-0b1ce406-413b-4259-8c75-149436e6588a
+I, [2019-09-25T09:50:14.816912 #10408]  INFO -- test-vagrant-1404: ==> default: Fixed port collision for 22 => 2222. Now on port 2200.
+I, [2019-09-25T09:50:16.138209 #10408]  INFO -- test-vagrant-1404: ==> default: Clearing any previously set network interfaces...
+I, [2019-09-25T09:50:16.296010 #10408]  INFO -- test-vagrant-1404: ==> default: Preparing network interfaces based on configuration...
+I, [2019-09-25T09:50:16.296145 #10408]  INFO -- test-vagrant-1404:     default: Adapter 1: nat
+I, [2019-09-25T09:50:16.407101 #10408]  INFO -- test-vagrant-1404: ==> default: Forwarding ports...
+I, [2019-09-25T09:50:16.529916 #10408]  INFO -- test-vagrant-1404:     default: 22 (guest) => 2200 (host) (adapter 1)
+I, [2019-09-25T09:50:16.859907 #10408]  INFO -- test-vagrant-1404: ==> default: Running 'pre-boot' VM customizations...
+I, [2019-09-25T09:50:16.982618 #10408]  INFO -- test-vagrant-1404: ==> default: Booting VM...
+I, [2019-09-25T09:50:17.404684 #10408]  INFO -- test-vagrant-1404: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2019-09-25T09:50:17.841205 #10408]  INFO -- test-vagrant-1404:     default: SSH address: 127.0.0.1:2200
+I, [2019-09-25T09:50:17.841677 #10408]  INFO -- test-vagrant-1404:     default: SSH username: vagrant
+I, [2019-09-25T09:50:17.842097 #10408]  INFO -- test-vagrant-1404:     default: SSH auth method: private key
+I, [2019-09-25T09:50:41.716685 #10408]  INFO -- test-vagrant-1404:     default: 
+I, [2019-09-25T09:50:41.716795 #10408]  INFO -- test-vagrant-1404:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2019-09-25T09:50:41.716834 #10408]  INFO -- test-vagrant-1404:     default: this with a newly generated keypair for better security.
+I, [2019-09-25T09:50:43.417934 #10408]  INFO -- test-vagrant-1404:     default: 
+I, [2019-09-25T09:50:43.418032 #10408]  INFO -- test-vagrant-1404:     default: Inserting generated public key within guest...
+I, [2019-09-25T09:50:45.478073 #10408]  INFO -- test-vagrant-1404:     default: Removing insecure key from the guest if it's present...
+I, [2019-09-25T09:50:46.874976 #10408]  INFO -- test-vagrant-1404:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2019-09-25T09:50:48.417348 #10408]  INFO -- test-vagrant-1404: ==> default: Machine booted and ready!
+I, [2019-09-25T09:50:48.418275 #10408]  INFO -- test-vagrant-1404: ==> default: Checking for guest additions in VM...
+I, [2019-09-25T09:50:48.503172 #10408]  INFO -- test-vagrant-1404:     default: The guest additions on this VM do not match the installed version of
+I, [2019-09-25T09:50:48.503304 #10408]  INFO -- test-vagrant-1404:     default: VirtualBox! In most cases this is fine, but in rare cases it can
+I, [2019-09-25T09:50:48.503380 #10408]  INFO -- test-vagrant-1404:     default: prevent things such as shared folders from working properly. If you see
+I, [2019-09-25T09:50:48.503430 #10408]  INFO -- test-vagrant-1404:     default: shared folder errors, please make sure the guest additions within the
+I, [2019-09-25T09:50:48.503474 #10408]  INFO -- test-vagrant-1404:     default: virtual machine match the version of VirtualBox you have installed on
+I, [2019-09-25T09:50:48.503517 #10408]  INFO -- test-vagrant-1404:     default: your host and reload your VM.
+I, [2019-09-25T09:50:48.503559 #10408]  INFO -- test-vagrant-1404:     default: 
+I, [2019-09-25T09:50:48.503600 #10408]  INFO -- test-vagrant-1404:     default: Guest Additions Version: 5.2.18
+I, [2019-09-25T09:50:48.503641 #10408]  INFO -- test-vagrant-1404:     default: VirtualBox Version: 6.0
+I, [2019-09-25T09:50:48.505506 #10408]  INFO -- test-vagrant-1404: ==> default: Setting hostname...
+I, [2019-09-25T09:50:52.927112 #10408]  INFO -- test-vagrant-1404: ==> default: Mounting shared folders...
+I, [2019-09-25T09:50:52.927947 #10408]  INFO -- test-vagrant-1404:     default: /tmp/omnibus/cache => /home/tvisher/.kitchen/cache
+I, [2019-09-25T09:50:54.246664 #10408]  INFO -- test-vagrant-1404: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2019-09-25T09:50:58.751214 #10408]  INFO -- test-vagrant-1404: [SSH] Established
+I, [2019-09-25T09:50:58.751657 #10408]  INFO -- test-vagrant-1404: Vagrant instance <test-vagrant-1404> created.
+I, [2019-09-25T09:50:58.752504 #10408]  INFO -- test-vagrant-1404: Finished creating <test-vagrant-1404> (1m14.75s).
+I, [2019-09-25T09:50:58.752777 #10408]  INFO -- test-vagrant-1404: -----> Converging <test-vagrant-1404>...
+I, [2019-09-25T09:50:58.762118 #10408]  INFO -- test-vagrant-1404: Preparing files for transfer
+I, [2019-09-25T09:50:58.762254 #10408]  INFO -- test-vagrant-1404: Preparing dna.json
+I, [2019-09-25T09:50:58.762648 #10408]  INFO -- test-vagrant-1404: Resolving cookbook dependencies with Berkshelf 7.0.8...
+I, [2019-09-25T09:50:58.813626 #10408]  INFO -- test-vagrant-1404: Removing non-cookbook files before transfer
+I, [2019-09-25T09:50:58.815888 #10408]  INFO -- test-vagrant-1404: Preparing solo.rb
+I, [2019-09-25T09:50:58.842201 #10408]  INFO -- test-vagrant-1404: ubuntu 14.04 x86_64
+I, [2019-09-25T09:50:58.843872 #10408]  INFO -- test-vagrant-1404: Getting information for chef stable 13 for ubuntu...
+I, [2019-09-25T09:50:58.844506 #10408]  INFO -- test-vagrant-1404: downloading https://omnitruck.chef.io/stable/chef/metadata?v=13&p=ubuntu&pv=14.04&m=x86_64
+I, [2019-09-25T09:50:58.845020 #10408]  INFO -- test-vagrant-1404:   to file /tmp/install.sh.1756/metadata.txt
+I, [2019-09-25T09:50:58.845270 #10408]  INFO -- test-vagrant-1404: trying wget...
+I, [2019-09-25T09:50:59.499659 #10408]  INFO -- test-vagrant-1404: sha1	e3464d3392372f7b55e42f392074d59ef93c7ca0
+I, [2019-09-25T09:50:59.500987 #10408]  INFO -- test-vagrant-1404: sha256	1edc741531fbebfd0e716b111686394019336e996d084353ab56c15ab8bd9cfb
+I, [2019-09-25T09:50:59.503036 #10408]  INFO -- test-vagrant-1404: url	https://packages.chef.io/files/stable/chef/13.12.14/ubuntu/14.04/chef_13.12.14-1_amd64.deb
+I, [2019-09-25T09:50:59.503717 #10408]  INFO -- test-vagrant-1404: version	13.12.14
+I, [2019-09-25T09:50:59.504515 #10408]  INFO -- test-vagrant-1404: downloaded metadata file looks valid...
+I, [2019-09-25T09:50:59.510585 #10408]  INFO -- test-vagrant-1404: /tmp/omnibus/cache/chef_13.12.14-1_amd64.deb exists
+I, [2019-09-25T09:50:59.510869 #10408]  INFO -- test-vagrant-1404: Comparing checksum with sha256sum...
+I, [2019-09-25T09:50:59.895046 #10408]  INFO -- test-vagrant-1404: Installing chef 13
+I, [2019-09-25T09:50:59.895353 #10408]  INFO -- test-vagrant-1404: installing with dpkg...
+I, [2019-09-25T09:51:00.074335 #10408]  INFO -- test-vagrant-1404: Selecting previously unselected package chef.
+I, [2019-09-25T09:51:01.227952 #10408]  INFO -- test-vagrant-1404: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 36174 files and directories currently installed.)
+I, [2019-09-25T09:51:01.229627 #10408]  INFO -- test-vagrant-1404: Preparing to unpack .../chef_13.12.14-1_amd64.deb ...
+I, [2019-09-25T09:51:01.243513 #10408]  INFO -- test-vagrant-1404: Unpacking chef (13.12.14-1) ...
+I, [2019-09-25T09:51:26.266955 #10408]  INFO -- test-vagrant-1404: Setting up chef (13.12.14-1) ...
+I, [2019-09-25T09:51:26.467259 #10408]  INFO -- test-vagrant-1404: Thank you for installing Chef!
+I, [2019-09-25T09:51:27.614855 #10408]  INFO -- test-vagrant-1404: Transferring files to <test-vagrant-1404>
+I, [2019-09-25T09:51:31.601098 #10408]  INFO -- test-vagrant-1404: Starting Chef Client, version 13.12.14
+I, [2019-09-25T09:51:33.247425 #10408]  INFO -- test-vagrant-1404: Creating a new client identity for test-vagrant-1404 using the validator key.
+I, [2019-09-25T09:51:33.476191 #10408]  INFO -- test-vagrant-1404: resolving cookbooks for run list: ["test"]
+I, [2019-09-25T09:51:33.572166 #10408]  INFO -- test-vagrant-1404: Synchronizing Cookbooks:
+I, [2019-09-25T09:51:33.586621 #10408]  INFO -- test-vagrant-1404:   - test (0.0.0)
+I, [2019-09-25T09:51:33.620722 #10408]  INFO -- test-vagrant-1404:   - aws (6.1.1)
+I, [2019-09-25T09:51:33.621189 #10408]  INFO -- test-vagrant-1404: Installing Cookbook Gems:
+I, [2019-09-25T09:51:42.287498 #10408]  INFO -- test-vagrant-1404: Compiling Cookbooks...
+I, [2019-09-25T09:51:42.394927 #10408]  INFO -- test-vagrant-1404: Converging 4 resources
+I, [2019-09-25T09:51:42.395908 #10408]  INFO -- test-vagrant-1404: Recipe: test::default
+I, [2019-09-25T09:51:42.512665 #10408]  INFO -- test-vagrant-1404:   * apt_update[bundler] action periodic
+I, [2019-09-25T09:51:42.513107 #10408]  INFO -- test-vagrant-1404:     - update new lists of packages
+I, [2019-09-25T09:51:42.515766 #10408]  INFO -- test-vagrant-1404:     * directory[/var/lib/apt/periodic] action create (up to date)
+I, [2019-09-25T09:51:42.517783 #10408]  INFO -- test-vagrant-1404:     * directory[/etc/apt/apt.conf.d] action create (up to date)
+I, [2019-09-25T09:51:42.520044 #10408]  INFO -- test-vagrant-1404:     * file[/etc/apt/apt.conf.d/15update-stamp] action create_if_missing (up to date)
+I, [2019-09-25T09:52:04.185758 #10408]  INFO -- test-vagrant-1404:     * execute[apt-get -q update] action run
+I, [2019-09-25T09:52:04.185851 #10408]  INFO -- test-vagrant-1404:       - execute apt-get -q update
+I, [2019-09-25T09:52:04.185881 #10408]  INFO -- test-vagrant-1404:   
+I, [2019-09-25T09:53:42.220676 #10408]  INFO -- test-vagrant-1404:   * apt_package[bundler] action install
+I, [2019-09-25T09:53:42.220777 #10408]  INFO -- test-vagrant-1404:     - install version 1.3.5-2ubuntu1 of package bundler
+I, [2019-09-25T09:53:42.222126 #10408]  INFO -- test-vagrant-1404:   * file[/home/vagrant/Gemfile] action create
+I, [2019-09-25T09:53:42.223792 #10408]  INFO -- test-vagrant-1404:     - create new file /home/vagrant/Gemfile
+I, [2019-09-25T09:53:42.225103 #10408]  INFO -- test-vagrant-1404:     - update content in file /home/vagrant/Gemfile from none to 91a9ed
+I, [2019-09-25T09:53:42.225566 #10408]  INFO -- test-vagrant-1404:     --- /home/vagrant/Gemfile	2019-09-25 13:53:42.226162531 +0000
+I, [2019-09-25T09:53:42.226139 #10408]  INFO -- test-vagrant-1404:     +++ /home/vagrant/.chef-Gemfile20190925-1839-ky8gqe	2019-09-25 13:53:42.226162531 +0000
+I, [2019-09-25T09:53:42.226925 #10408]  INFO -- test-vagrant-1404:     @@ -1 +1,3 @@
+I, [2019-09-25T09:53:42.227287 #10408]  INFO -- test-vagrant-1404:     +    source 'https://rubygems.org'
+I, [2019-09-25T09:53:42.227898 #10408]  INFO -- test-vagrant-1404:     +    gem 'rake', '10.0.4'
+I, [2019-09-25T09:53:44.537544 #10408]  INFO -- test-vagrant-1404:   * execute[bundle install] action run
+I, [2019-09-25T09:53:44.537639 #10408]  INFO -- test-vagrant-1404:     - execute bundle install
+I, [2019-09-25T09:53:44.585758 #10408]  INFO -- test-vagrant-1404: 
+I, [2019-09-25T09:53:44.586755 #10408]  INFO -- test-vagrant-1404: Running handlers:
+I, [2019-09-25T09:53:44.586972 #10408]  INFO -- test-vagrant-1404: Running handlers complete
+I, [2019-09-25T09:53:44.587208 #10408]  INFO -- test-vagrant-1404: Chef Client finished, 5/8 resources updated in 02 minutes 13 seconds
+I, [2019-09-25T09:53:44.607988 #10408]  INFO -- test-vagrant-1404: Downloading files from <test-vagrant-1404>
+I, [2019-09-25T09:53:44.611182 #10408]  INFO -- test-vagrant-1404: Finished converging <test-vagrant-1404> (2m45.85s).
+I, [2019-09-25T09:53:44.611335 #10408]  INFO -- test-vagrant-1404: -----> Setting up <test-vagrant-1404>...
+I, [2019-09-25T09:53:44.735685 #10408]  INFO -- test-vagrant-1404: Finished setting up <test-vagrant-1404> (0m0.00s).
+I, [2019-09-25T09:53:44.735875 #10408]  INFO -- test-vagrant-1404: -----> Verifying <test-vagrant-1404>...
+I, [2019-09-25T09:53:44.736590 #10408]  INFO -- test-vagrant-1404: Preparing files for transfer
+I, [2019-09-25T09:53:44.737026 #10408]  INFO -- test-vagrant-1404: Transferring files to <test-vagrant-1404>
+I, [2019-09-25T09:53:44.940792 #10408]  INFO -- test-vagrant-1404: Finished verifying <test-vagrant-1404> (0m0.00s).
+I, [2019-09-25T09:53:44.941081 #10408]  INFO -- test-vagrant-1404: Finished testing <test-vagrant-1404> (5m22.48s).
+I, [2019-09-25T09:53:44.941714 #10408]  INFO -- test-vagrant-1404: -----> Destroying <test-vagrant-1404>...
+I, [2019-09-25T09:53:54.740338 #10408]  INFO -- test-vagrant-1404: ==> default: Forcing shutdown of VM...
+I, [2019-09-25T09:53:57.001436 #10408]  INFO -- test-vagrant-1404: ==> default: Destroying VM and associated drives...
+I, [2019-09-25T09:53:58.967180 #10408]  INFO -- test-vagrant-1404: Vagrant instance <test-vagrant-1404> destroyed.
+I, [2019-09-25T09:53:58.968018 #10408]  INFO -- test-vagrant-1404: Finished destroying <test-vagrant-1404> (0m14.03s).

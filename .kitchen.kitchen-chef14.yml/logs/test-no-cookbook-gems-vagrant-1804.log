@@ -1,0 +1,113 @@
+I, [2019-09-25T10:15:44.199428 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: -----> Cleaning up any prior instances of <test-no-cookbook-gems-vagrant-1804>
+I, [2019-09-25T10:15:44.200228 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: -----> Destroying <test-no-cookbook-gems-vagrant-1804>...
+I, [2019-09-25T10:15:44.200991 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Finished destroying <test-no-cookbook-gems-vagrant-1804> (0m0.00s).
+I, [2019-09-25T10:15:44.201146 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: -----> Testing <test-no-cookbook-gems-vagrant-1804>
+I, [2019-09-25T10:15:44.201248 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: -----> Creating <test-no-cookbook-gems-vagrant-1804>...
+I, [2019-09-25T10:15:47.736213 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2019-09-25T10:15:47.975089 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: ==> default: Importing base box 'bento/ubuntu-18.04'...
+I, [2019-09-25T10:16:17.844974 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: [KProgress: 10%[KProgress: 20%[KProgress: 40%[KProgress: 50%[KProgress: 60%[KProgress: 70%[KProgress: 80%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2019-09-25T10:16:19.185926 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: ==> default: Checking if box 'bento/ubuntu-18.04' version '201906.18.0' is up to date...
+I, [2019-09-25T10:16:20.039447 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: ==> default: Setting the name of the VM: kitchen-temp_bundler_1804-test-no-cookbook-gems-vagrant-1804-bba9cf23-336e-42d8-ae26-ad23e4269839
+I, [2019-09-25T10:16:22.642014 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: ==> default: Clearing any previously set network interfaces...
+I, [2019-09-25T10:16:22.777101 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: ==> default: Preparing network interfaces based on configuration...
+I, [2019-09-25T10:16:22.777592 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:     default: Adapter 1: nat
+I, [2019-09-25T10:16:22.919658 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: ==> default: Forwarding ports...
+I, [2019-09-25T10:16:23.072757 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:     default: 22 (guest) => 2222 (host) (adapter 1)
+I, [2019-09-25T10:16:23.739645 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: ==> default: Running 'pre-boot' VM customizations...
+I, [2019-09-25T10:16:24.270767 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: ==> default: Booting VM...
+I, [2019-09-25T10:16:24.980723 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2019-09-25T10:16:25.423514 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:     default: SSH address: 127.0.0.1:2222
+I, [2019-09-25T10:16:25.423665 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:     default: SSH username: vagrant
+I, [2019-09-25T10:16:25.424434 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:     default: SSH auth method: private key
+I, [2019-09-25T10:16:47.081329 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:     default: Warning: Connection reset. Retrying...
+I, [2019-09-25T10:16:47.368506 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:     default: Warning: Remote connection disconnect. Retrying...
+I, [2019-09-25T10:16:57.802158 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:     default: 
+I, [2019-09-25T10:16:57.802257 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2019-09-25T10:16:57.802291 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:     default: this with a newly generated keypair for better security.
+I, [2019-09-25T10:16:59.748245 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:     default: 
+I, [2019-09-25T10:16:59.748344 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:     default: Inserting generated public key within guest...
+I, [2019-09-25T10:17:00.601558 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:     default: Removing insecure key from the guest if it's present...
+I, [2019-09-25T10:17:01.759465 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2019-09-25T10:17:02.996847 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: ==> default: Machine booted and ready!
+I, [2019-09-25T10:17:02.998009 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: ==> default: Checking for guest additions in VM...
+I, [2019-09-25T10:17:03.087507 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: ==> default: Setting hostname...
+I, [2019-09-25T10:17:04.495177 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: ==> default: Mounting shared folders...
+I, [2019-09-25T10:17:04.495736 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:     default: /tmp/omnibus/cache => /home/tvisher/.kitchen/cache
+I, [2019-09-25T10:17:06.305120 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2019-09-25T10:17:11.043947 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: [SSH] Established
+I, [2019-09-25T10:17:11.044993 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Vagrant instance <test-no-cookbook-gems-vagrant-1804> created.
+I, [2019-09-25T10:17:11.046764 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Finished creating <test-no-cookbook-gems-vagrant-1804> (1m26.84s).
+I, [2019-09-25T10:17:11.050763 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: -----> Converging <test-no-cookbook-gems-vagrant-1804>...
+I, [2019-09-25T10:17:11.054107 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Preparing files for transfer
+I, [2019-09-25T10:17:11.054275 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Preparing dna.json
+I, [2019-09-25T10:17:11.054660 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Resolving cookbook dependencies with Berkshelf 7.0.8...
+I, [2019-09-25T10:17:11.106571 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Removing non-cookbook files before transfer
+I, [2019-09-25T10:17:11.108835 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Preparing solo.rb
+I, [2019-09-25T10:17:11.143616 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: ubuntu 18.04 x86_64
+I, [2019-09-25T10:17:11.143709 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Getting information for chef stable 14 for ubuntu...
+I, [2019-09-25T10:17:11.143742 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: downloading https://omnitruck.chef.io/stable/chef/metadata?v=14&p=ubuntu&pv=18.04&m=x86_64
+I, [2019-09-25T10:17:11.143770 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:   to file /tmp/install.sh.1757/metadata.txt
+I, [2019-09-25T10:17:11.144868 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: trying wget...
+I, [2019-09-25T10:17:11.332899 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: sha1	ed9b1fcdaf947d9a3d60e6d196308183a082bcff
+I, [2019-09-25T10:17:11.333395 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: sha256	9ddcd5ceef19c95ecc1f34bef080c23d9cb42ae8ebc69fd41dcf1c768a6a708f
+I, [2019-09-25T10:17:11.334214 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: url	https://packages.chef.io/files/stable/chef/14.13.11/ubuntu/18.04/chef_14.13.11-1_amd64.deb
+I, [2019-09-25T10:17:11.334647 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: version	14.13.11
+I, [2019-09-25T10:17:11.337271 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: downloaded metadata file looks valid...
+I, [2019-09-25T10:17:11.346687 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: /tmp/omnibus/cache/chef_14.13.11-1_amd64.deb exists
+I, [2019-09-25T10:17:11.346921 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Comparing checksum with sha256sum...
+I, [2019-09-25T10:17:11.691174 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Installing chef 14
+I, [2019-09-25T10:17:11.691258 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: installing with dpkg...
+I, [2019-09-25T10:17:11.843502 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Selecting previously unselected package chef.
+I, [2019-09-25T10:17:13.065996 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 42487 files and directories currently installed.)
+I, [2019-09-25T10:17:13.068227 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Preparing to unpack .../chef_14.13.11-1_amd64.deb ...
+I, [2019-09-25T10:17:13.086936 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Unpacking chef (14.13.11-1) ...
+I, [2019-09-25T10:17:24.493892 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Setting up chef (14.13.11-1) ...
+I, [2019-09-25T10:17:24.694073 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Thank you for installing Chef Infra Client! For help getting started visit https://learn.chef.io
+I, [2019-09-25T10:17:24.845690 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Transferring files to <test-no-cookbook-gems-vagrant-1804>
+I, [2019-09-25T10:17:28.939740 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Starting Chef Client, version 14.13.11
+I, [2019-09-25T10:17:30.687496 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Creating a new client identity for test-no-cookbook-gems-vagrant-1804 using the validator key.
+I, [2019-09-25T10:17:31.004291 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: resolving cookbooks for run list: ["test_no_cookbook_gems"]
+I, [2019-09-25T10:17:31.035066 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Synchronizing Cookbooks:
+I, [2019-09-25T10:17:31.046055 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:   - test_no_cookbook_gems (0.0.0)
+I, [2019-09-25T10:17:31.048733 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Installing Cookbook Gems:
+I, [2019-09-25T10:17:31.048938 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Compiling Cookbooks...
+I, [2019-09-25T10:17:31.058757 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Converging 4 resources
+I, [2019-09-25T10:17:31.059119 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Recipe: test_no_cookbook_gems::default
+I, [2019-09-25T10:17:31.062585 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:   * apt_update[bundler] action periodic
+I, [2019-09-25T10:17:31.063301 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:     - update new lists of packages
+I, [2019-09-25T10:17:31.066543 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:     * directory[/var/lib/apt/periodic] action create (up to date)
+I, [2019-09-25T10:17:31.069102 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:     * directory[/etc/apt/apt.conf.d] action create (up to date)
+I, [2019-09-25T10:17:31.071523 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:     * file[/etc/apt/apt.conf.d/15update-stamp] action create_if_missing (up to date)
+I, [2019-09-25T10:18:15.706680 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:     * execute[apt-get -q update] action run
+I, [2019-09-25T10:18:15.707374 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:       - execute ["apt-get", "-q", "update"]
+I, [2019-09-25T10:18:15.707928 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:   
+I, [2019-09-25T10:20:44.748711 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:   * apt_package[bundler] action install
+I, [2019-09-25T10:20:44.749639 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:     - install version 1.16.1-1 of package bundler
+I, [2019-09-25T10:20:44.753731 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:   * file[/home/vagrant/Gemfile] action create
+I, [2019-09-25T10:20:44.760018 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:     - create new file /home/vagrant/Gemfile
+I, [2019-09-25T10:20:44.760739 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:     - update content in file /home/vagrant/Gemfile from none to 91a9ed
+I, [2019-09-25T10:20:44.761609 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:     --- /home/vagrant/Gemfile	2019-09-25 14:20:42.679285443 +0000
+I, [2019-09-25T10:20:44.762284 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:     +++ /home/vagrant/.chef-Gemfile20190925-1834-1wuf2mn	2019-09-25 14:20:42.679285443 +0000
+I, [2019-09-25T10:20:44.762890 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:     @@ -1 +1,3 @@
+I, [2019-09-25T10:20:44.763515 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:     +    source 'https://rubygems.org'
+I, [2019-09-25T10:20:45.026801 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:     +    gem 'rake', '10.0.4'
+I, [2019-09-25T10:20:50.256333 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:   * execute[bundle install] action run
+I, [2019-09-25T10:20:50.257332 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804:     - execute bundle install
+I, [2019-09-25T10:20:50.441054 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: 
+I, [2019-09-25T10:20:50.441366 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Running handlers:
+I, [2019-09-25T10:20:50.441655 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Running handlers complete
+I, [2019-09-25T10:20:50.442188 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Chef Client finished, 5/8 resources updated in 03 minutes 21 seconds
+I, [2019-09-25T10:20:50.470954 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Downloading files from <test-no-cookbook-gems-vagrant-1804>
+I, [2019-09-25T10:20:50.480282 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Finished converging <test-no-cookbook-gems-vagrant-1804> (3m39.43s).
+I, [2019-09-25T10:20:50.481958 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: -----> Setting up <test-no-cookbook-gems-vagrant-1804>...
+I, [2019-09-25T10:20:50.513966 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Finished setting up <test-no-cookbook-gems-vagrant-1804> (0m0.00s).
+I, [2019-09-25T10:20:50.514302 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: -----> Verifying <test-no-cookbook-gems-vagrant-1804>...
+I, [2019-09-25T10:20:50.514934 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Preparing files for transfer
+I, [2019-09-25T10:20:50.515321 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Transferring files to <test-no-cookbook-gems-vagrant-1804>
+I, [2019-09-25T10:20:50.516385 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Finished verifying <test-no-cookbook-gems-vagrant-1804> (0m0.00s).
+I, [2019-09-25T10:20:50.517701 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Finished testing <test-no-cookbook-gems-vagrant-1804> (5m6.32s).
+I, [2019-09-25T10:20:50.518093 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: -----> Destroying <test-no-cookbook-gems-vagrant-1804>...
+I, [2019-09-25T10:21:35.919315 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: ==> default: Forcing shutdown of VM...
+I, [2019-09-25T10:21:37.410137 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: ==> default: Destroying VM and associated drives...
+I, [2019-09-25T10:21:38.787348 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Vagrant instance <test-no-cookbook-gems-vagrant-1804> destroyed.
+I, [2019-09-25T10:21:38.788613 #2468]  INFO -- test-no-cookbook-gems-vagrant-1804: Finished destroying <test-no-cookbook-gems-vagrant-1804> (0m48.27s).

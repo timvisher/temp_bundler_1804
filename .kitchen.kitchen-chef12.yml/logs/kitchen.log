@@ -1,0 +1,195 @@
+I, [2019-09-25T09:15:27.055718 #15577]  INFO -- Kitchen: -----> Starting Kitchen (v2.2.5)
+I, [2019-09-25T09:15:27.970256 #15577]  INFO -- Kitchen: -----> Cleaning up any prior instances of <test-vagrant-1604>
+I, [2019-09-25T09:15:27.970475 #15577]  INFO -- Kitchen: -----> Cleaning up any prior instances of <test-vagrant-1404>
+I, [2019-09-25T09:15:27.970608 #15577]  INFO -- Kitchen: -----> Cleaning up any prior instances of <test-ubuntu-1804>
+I, [2019-09-25T09:15:27.970860 #15577]  INFO -- Kitchen: -----> Cleaning up any prior instances of <test-vagrant-1804>
+I, [2019-09-25T09:15:27.971215 #15577]  INFO -- Kitchen: -----> Destroying <test-vagrant-1604>...
+I, [2019-09-25T09:15:27.971042 #15577]  INFO -- Kitchen: -----> Destroying <test-ubuntu-1804>...
+I, [2019-09-25T09:15:27.971358 #15577]  INFO -- Kitchen: -----> Destroying <test-vagrant-1404>...
+I, [2019-09-25T09:15:27.971441 #15577]  INFO -- Kitchen: -----> Destroying <test-vagrant-1804>...
+I, [2019-09-25T09:15:27.973993 #15577]  INFO -- Kitchen: -----> Testing <test-vagrant-1404>
+I, [2019-09-25T09:15:27.974146 #15577]  INFO -- Kitchen: -----> Creating <test-vagrant-1404>...
+I, [2019-09-25T09:15:27.974690 #15577]  INFO -- Kitchen: -----> Testing <test-vagrant-1604>
+I, [2019-09-25T09:15:27.974838 #15577]  INFO -- Kitchen: -----> Creating <test-vagrant-1604>...
+I, [2019-09-25T09:15:27.975844 #15577]  INFO -- Kitchen: -----> Testing <test-ubuntu-1804>
+I, [2019-09-25T09:15:27.976123 #15577]  INFO -- Kitchen: -----> Testing <test-vagrant-1804>
+I, [2019-09-25T09:15:27.976234 #15577]  INFO -- Kitchen: -----> Creating <test-ubuntu-1804>...
+I, [2019-09-25T09:15:27.978493 #15577]  INFO -- Kitchen: -----> Creating <test-vagrant-1804>...
+I, [2019-09-25T09:16:31.864215 #15577]  INFO -- Kitchen: -----> Converging <test-vagrant-1404>...
+I, [2019-09-25T09:17:41.747567 #15577]  INFO -- Kitchen: -----> Converging <test-vagrant-1604>...
+I, [2019-09-25T09:19:02.453967 #15577]  INFO -- Kitchen: -----> Setting up <test-vagrant-1404>...
+I, [2019-09-25T09:19:02.460798 #15577]  INFO -- Kitchen: -----> Verifying <test-vagrant-1404>...
+I, [2019-09-25T09:19:02.563179 #15577]  INFO -- Kitchen: -----> Destroying <test-vagrant-1404>...
+I, [2019-09-25T09:19:09.371793 #15577]  INFO -- Kitchen: -----> Converging <test-ubuntu-1804>...
+I, [2019-09-25T09:20:29.905886 #15577]  INFO -- Kitchen: -----> Converging <test-vagrant-1804>...
+I, [2019-09-25T09:20:38.312905 #15577]  INFO -- Kitchen: -----> Cleaning up any prior instances of <test-no-cookbook-gems-vagrant-1804>
+I, [2019-09-25T09:20:38.313235 #15577]  INFO -- Kitchen: -----> Destroying <test-no-cookbook-gems-vagrant-1804>...
+I, [2019-09-25T09:20:38.314235 #15577]  INFO -- Kitchen: -----> Testing <test-no-cookbook-gems-vagrant-1804>
+I, [2019-09-25T09:20:38.314460 #15577]  INFO -- Kitchen: -----> Creating <test-no-cookbook-gems-vagrant-1804>...
+I, [2019-09-25T09:22:05.610823 #15577]  INFO -- Kitchen: -----> Converging <test-no-cookbook-gems-vagrant-1804>...
+I, [2019-09-25T09:23:01.965887 #15577]  INFO -- Kitchen: -----> Setting up <test-vagrant-1604>...
+I, [2019-09-25T09:23:01.967002 #15577]  INFO -- Kitchen: -----> Verifying <test-vagrant-1604>...
+I, [2019-09-25T09:23:01.969260 #15577]  INFO -- Kitchen: -----> Destroying <test-vagrant-1604>...
+I, [2019-09-25T09:23:09.643426 #15577]  INFO -- Kitchen: -----> Cleaning up any prior instances of <test-no-cookbook-gems-vagrant-1604>
+I, [2019-09-25T09:23:09.643604 #15577]  INFO -- Kitchen: -----> Destroying <test-no-cookbook-gems-vagrant-1604>...
+I, [2019-09-25T09:23:09.644126 #15577]  INFO -- Kitchen: -----> Testing <test-no-cookbook-gems-vagrant-1604>
+I, [2019-09-25T09:23:09.644254 #15577]  INFO -- Kitchen: -----> Creating <test-no-cookbook-gems-vagrant-1604>...
+I, [2019-09-25T09:24:27.300539 #15577]  INFO -- Kitchen: -----> Converging <test-no-cookbook-gems-vagrant-1604>...
+I, [2019-09-25T09:25:45.914534 #15577]  INFO -- Kitchen: -----> Destroying <test-vagrant-1804>...
+I, [2019-09-25T09:25:53.718838 #15577]  INFO -- Kitchen: -----> Cleaning up any prior instances of <test-no-cookbook-gems-vagrant-1404>
+I, [2019-09-25T09:25:53.718996 #15577]  INFO -- Kitchen: -----> Destroying <test-no-cookbook-gems-vagrant-1404>...
+I, [2019-09-25T09:25:53.719471 #15577]  INFO -- Kitchen: -----> Testing <test-no-cookbook-gems-vagrant-1404>
+I, [2019-09-25T09:25:53.719582 #15577]  INFO -- Kitchen: -----> Creating <test-no-cookbook-gems-vagrant-1404>...
+I, [2019-09-25T09:26:00.942054 #15577]  INFO -- Kitchen: -----> Setting up <test-no-cookbook-gems-vagrant-1804>...
+I, [2019-09-25T09:26:00.943821 #15577]  INFO -- Kitchen: -----> Verifying <test-no-cookbook-gems-vagrant-1804>...
+I, [2019-09-25T09:26:01.016766 #15577]  INFO -- Kitchen: -----> Destroying <test-no-cookbook-gems-vagrant-1804>...
+I, [2019-09-25T09:27:04.873064 #15577]  INFO -- Kitchen: -----> Converging <test-no-cookbook-gems-vagrant-1404>...
+I, [2019-09-25T09:27:13.265562 #15577]  INFO -- Kitchen: -----> Cleaning up any prior instances of <test-no-cookbook-gems-ubuntu-1804>
+I, [2019-09-25T09:27:13.265763 #15577]  INFO -- Kitchen: -----> Destroying <test-no-cookbook-gems-ubuntu-1804>...
+I, [2019-09-25T09:27:13.266318 #15577]  INFO -- Kitchen: -----> Testing <test-no-cookbook-gems-ubuntu-1804>
+I, [2019-09-25T09:27:13.266438 #15577]  INFO -- Kitchen: -----> Creating <test-no-cookbook-gems-ubuntu-1804>...
+I, [2019-09-25T09:27:36.330098 #15577]  INFO -- Kitchen: -----> Destroying <test-ubuntu-1804>...
+I, [2019-09-25T09:28:25.046799 #15577]  INFO -- Kitchen: -----> Setting up <test-no-cookbook-gems-vagrant-1404>...
+I, [2019-09-25T09:28:25.047702 #15577]  INFO -- Kitchen: -----> Verifying <test-no-cookbook-gems-vagrant-1404>...
+I, [2019-09-25T09:28:25.049989 #15577]  INFO -- Kitchen: -----> Destroying <test-no-cookbook-gems-vagrant-1404>...
+I, [2019-09-25T09:28:29.944450 #15577]  INFO -- Kitchen: -----> Converging <test-no-cookbook-gems-ubuntu-1804>...
+I, [2019-09-25T09:30:27.807741 #15577]  INFO -- Kitchen: -----> Setting up <test-no-cookbook-gems-vagrant-1604>...
+I, [2019-09-25T09:30:27.808924 #15577]  INFO -- Kitchen: -----> Verifying <test-no-cookbook-gems-vagrant-1604>...
+I, [2019-09-25T09:30:27.811367 #15577]  INFO -- Kitchen: -----> Destroying <test-no-cookbook-gems-vagrant-1604>...
+I, [2019-09-25T09:48:12.761509 #15577]  INFO -- Kitchen: -----> Setting up <test-no-cookbook-gems-ubuntu-1804>...
+I, [2019-09-25T09:48:12.762733 #15577]  INFO -- Kitchen: -----> Verifying <test-no-cookbook-gems-ubuntu-1804>...
+I, [2019-09-25T09:48:12.764495 #15577]  INFO -- Kitchen: -----> Destroying <test-no-cookbook-gems-ubuntu-1804>...
+E, [2019-09-25T09:48:20.478242 #15577] ERROR -- Kitchen: ------Exception-------
+E, [2019-09-25T09:48:20.478321 #15577] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2019-09-25T09:48:20.478389 #15577] ERROR -- Kitchen: Message: 2 actions failed.
+>>>>>>     Converge failed on instance <test-vagrant-1804>.  Please see .kitchen/logs/test-vagrant-1804.log for more details
+>>>>>>     Converge failed on instance <test-ubuntu-1804>.  Please see .kitchen/logs/test-ubuntu-1804.log for more details
+E, [2019-09-25T09:48:20.478438 #15577] ERROR -- Kitchen: ----------------------
+E, [2019-09-25T09:48:20.478476 #15577] ERROR -- Kitchen: ------Backtrace-------
+E, [2019-09-25T09:48:20.478520 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/command.rb:183:in `report_errors'
+E, [2019-09-25T09:48:20.478561 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/command.rb:174:in `run_action'
+E, [2019-09-25T09:48:20.478598 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/command/test.rb:42:in `block in call'
+E, [2019-09-25T09:48:20.478633 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.6.0/benchmark.rb:293:in `measure'
+E, [2019-09-25T09:48:20.478668 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/command/test.rb:38:in `call'
+E, [2019-09-25T09:48:20.478704 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/cli.rb:52:in `perform'
+E, [2019-09-25T09:48:20.478754 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/cli.rb:245:in `test'
+E, [2019-09-25T09:48:20.478794 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/thor-0.20.3/lib/thor/command.rb:27:in `run'
+E, [2019-09-25T09:48:20.478840 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/thor-0.20.3/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2019-09-25T09:48:20.478876 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/thor-0.20.3/lib/thor.rb:387:in `dispatch'
+E, [2019-09-25T09:48:20.478911 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/thor-0.20.3/lib/thor/base.rb:466:in `start'
+E, [2019-09-25T09:48:20.478950 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/bin/kitchen:13:in `block in <top (required)>'
+E, [2019-09-25T09:48:20.478986 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/errors.rb:171:in `with_friendly_errors'
+E, [2019-09-25T09:48:20.479021 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/bin/kitchen:13:in `<top (required)>'
+E, [2019-09-25T09:48:20.479056 #15577] ERROR -- Kitchen: /usr/bin/kitchen:347:in `load'
+E, [2019-09-25T09:48:20.479088 #15577] ERROR -- Kitchen: /usr/bin/kitchen:347:in `<main>'
+E, [2019-09-25T09:48:20.479129 #15577] ERROR -- Kitchen: ----End Backtrace-----
+E, [2019-09-25T09:48:20.479160 #15577] ERROR -- Kitchen: -Composite Exception--
+E, [2019-09-25T09:48:20.479192 #15577] ERROR -- Kitchen: Class: Kitchen::InstanceFailure
+E, [2019-09-25T09:48:20.479224 #15577] ERROR -- Kitchen: Message: Converge failed on instance <test-vagrant-1804>.  Please see .kitchen/logs/test-vagrant-1804.log for more details
+E, [2019-09-25T09:48:20.479270 #15577] ERROR -- Kitchen: ----------------------
+E, [2019-09-25T09:48:20.479303 #15577] ERROR -- Kitchen: ------Backtrace-------
+E, [2019-09-25T09:48:20.479337 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/provisioner/base.rb:95:in `rescue in call'
+E, [2019-09-25T09:48:20.479371 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/provisioner/base.rb:94:in `call'
+E, [2019-09-25T09:48:20.479412 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:409:in `block in converge_action'
+E, [2019-09-25T09:48:20.479442 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:552:in `synchronize_or_call'
+E, [2019-09-25T09:48:20.479480 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:514:in `block in action'
+E, [2019-09-25T09:48:20.479515 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.6.0/benchmark.rb:293:in `measure'
+E, [2019-09-25T09:48:20.479551 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:513:in `action'
+E, [2019-09-25T09:48:20.479585 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:404:in `converge_action'
+E, [2019-09-25T09:48:20.479621 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:382:in `block (2 levels) in transition_to'
+E, [2019-09-25T09:48:20.479655 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/lifecycle_hooks.rb:45:in `run_with_hooks'
+E, [2019-09-25T09:48:20.479700 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:381:in `block in transition_to'
+E, [2019-09-25T09:48:20.479738 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:380:in `each'
+E, [2019-09-25T09:48:20.479772 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:380:in `transition_to'
+E, [2019-09-25T09:48:20.479816 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:162:in `verify'
+E, [2019-09-25T09:48:20.479852 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:191:in `block in test'
+E, [2019-09-25T09:48:20.479886 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.6.0/benchmark.rb:293:in `measure'
+E, [2019-09-25T09:48:20.479922 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:187:in `test'
+E, [2019-09-25T09:48:20.479957 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/command.rb:197:in `public_send'
+E, [2019-09-25T09:48:20.479996 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2019-09-25T09:48:20.480031 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2019-09-25T09:48:20.480080 #15577] ERROR -- Kitchen: ----End Backtrace-----
+E, [2019-09-25T09:48:20.480113 #15577] ERROR -- Kitchen: ---Nested Exception---
+E, [2019-09-25T09:48:20.480147 #15577] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2019-09-25T09:48:20.480180 #15577] ERROR -- Kitchen: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json 
+']
+E, [2019-09-25T09:48:20.480215 #15577] ERROR -- Kitchen: ----------------------
+E, [2019-09-25T09:48:20.480247 #15577] ERROR -- Kitchen: ------Backtrace-------
+E, [2019-09-25T09:48:20.480279 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/provisioner/base.rb:95:in `rescue in call'
+E, [2019-09-25T09:48:20.480323 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/provisioner/base.rb:94:in `call'
+E, [2019-09-25T09:48:20.480367 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:409:in `block in converge_action'
+E, [2019-09-25T09:48:20.480405 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:552:in `synchronize_or_call'
+E, [2019-09-25T09:48:20.480439 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:514:in `block in action'
+E, [2019-09-25T09:48:20.480474 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.6.0/benchmark.rb:293:in `measure'
+E, [2019-09-25T09:48:20.480507 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:513:in `action'
+E, [2019-09-25T09:48:20.480543 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:404:in `converge_action'
+E, [2019-09-25T09:48:20.480576 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:382:in `block (2 levels) in transition_to'
+E, [2019-09-25T09:48:20.480611 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/lifecycle_hooks.rb:45:in `run_with_hooks'
+E, [2019-09-25T09:48:20.480656 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:381:in `block in transition_to'
+E, [2019-09-25T09:48:20.480692 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:380:in `each'
+E, [2019-09-25T09:48:20.480727 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:380:in `transition_to'
+E, [2019-09-25T09:48:20.480772 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:162:in `verify'
+E, [2019-09-25T09:48:20.480809 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:191:in `block in test'
+E, [2019-09-25T09:48:20.480844 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.6.0/benchmark.rb:293:in `measure'
+E, [2019-09-25T09:48:20.480880 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:187:in `test'
+E, [2019-09-25T09:48:20.480916 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/command.rb:197:in `public_send'
+E, [2019-09-25T09:48:20.480963 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2019-09-25T09:48:20.480997 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2019-09-25T09:48:20.481032 #15577] ERROR -- Kitchen: ----End Backtrace-----
+E, [2019-09-25T09:48:20.481064 #15577] ERROR -- Kitchen: -Composite Exception--
+E, [2019-09-25T09:48:20.481094 #15577] ERROR -- Kitchen: Class: Kitchen::InstanceFailure
+E, [2019-09-25T09:48:20.481126 #15577] ERROR -- Kitchen: Message: Converge failed on instance <test-ubuntu-1804>.  Please see .kitchen/logs/test-ubuntu-1804.log for more details
+E, [2019-09-25T09:48:20.481159 #15577] ERROR -- Kitchen: ----------------------
+E, [2019-09-25T09:48:20.481192 #15577] ERROR -- Kitchen: ------Backtrace-------
+E, [2019-09-25T09:48:20.481232 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/provisioner/base.rb:95:in `rescue in call'
+E, [2019-09-25T09:48:20.481267 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/provisioner/base.rb:94:in `call'
+E, [2019-09-25T09:48:20.481302 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:409:in `block in converge_action'
+E, [2019-09-25T09:48:20.481337 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:552:in `synchronize_or_call'
+E, [2019-09-25T09:48:20.481369 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:514:in `block in action'
+E, [2019-09-25T09:48:20.481404 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.6.0/benchmark.rb:293:in `measure'
+E, [2019-09-25T09:48:20.481439 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:513:in `action'
+E, [2019-09-25T09:48:20.481474 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:404:in `converge_action'
+E, [2019-09-25T09:48:20.481519 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:382:in `block (2 levels) in transition_to'
+E, [2019-09-25T09:48:20.481554 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/lifecycle_hooks.rb:45:in `run_with_hooks'
+E, [2019-09-25T09:48:20.481588 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:381:in `block in transition_to'
+E, [2019-09-25T09:48:20.481621 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:380:in `each'
+E, [2019-09-25T09:48:20.481656 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:380:in `transition_to'
+E, [2019-09-25T09:48:20.481690 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:162:in `verify'
+E, [2019-09-25T09:48:20.481734 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:191:in `block in test'
+E, [2019-09-25T09:48:20.481774 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.6.0/benchmark.rb:293:in `measure'
+E, [2019-09-25T09:48:20.481817 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:187:in `test'
+E, [2019-09-25T09:48:20.481854 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/command.rb:197:in `public_send'
+E, [2019-09-25T09:48:20.481889 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2019-09-25T09:48:20.481923 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2019-09-25T09:48:20.481960 #15577] ERROR -- Kitchen: ----End Backtrace-----
+E, [2019-09-25T09:48:20.481991 #15577] ERROR -- Kitchen: ---Nested Exception---
+E, [2019-09-25T09:48:20.482024 #15577] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2019-09-25T09:48:20.482066 #15577] ERROR -- Kitchen: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+sudo -E /opt/chef/bin/chef-solo --config /tmp/kitchen/solo.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json 
+']
+E, [2019-09-25T09:48:20.482106 #15577] ERROR -- Kitchen: ----------------------
+E, [2019-09-25T09:48:20.482137 #15577] ERROR -- Kitchen: ------Backtrace-------
+E, [2019-09-25T09:48:20.482169 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/provisioner/base.rb:95:in `rescue in call'
+E, [2019-09-25T09:48:20.482204 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/provisioner/base.rb:94:in `call'
+E, [2019-09-25T09:48:20.482237 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:409:in `block in converge_action'
+E, [2019-09-25T09:48:20.482902 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:552:in `synchronize_or_call'
+E, [2019-09-25T09:48:20.482971 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:514:in `block in action'
+E, [2019-09-25T09:48:20.483008 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.6.0/benchmark.rb:293:in `measure'
+E, [2019-09-25T09:48:20.483055 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:513:in `action'
+E, [2019-09-25T09:48:20.483089 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:404:in `converge_action'
+E, [2019-09-25T09:48:20.483122 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:382:in `block (2 levels) in transition_to'
+E, [2019-09-25T09:48:20.483156 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/lifecycle_hooks.rb:45:in `run_with_hooks'
+E, [2019-09-25T09:48:20.483190 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:381:in `block in transition_to'
+E, [2019-09-25T09:48:20.483223 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:380:in `each'
+E, [2019-09-25T09:48:20.483255 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:380:in `transition_to'
+E, [2019-09-25T09:48:20.483290 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:162:in `verify'
+E, [2019-09-25T09:48:20.483337 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:191:in `block in test'
+E, [2019-09-25T09:48:20.483372 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.6.0/benchmark.rb:293:in `measure'
+E, [2019-09-25T09:48:20.483403 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/instance.rb:187:in `test'
+E, [2019-09-25T09:48:20.483435 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/command.rb:197:in `public_send'
+E, [2019-09-25T09:48:20.483468 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2019-09-25T09:48:20.483499 #15577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.6.0/gems/test-kitchen-2.2.5/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2019-09-25T09:48:20.483532 #15577] ERROR -- Kitchen: ----End Backtrace-----

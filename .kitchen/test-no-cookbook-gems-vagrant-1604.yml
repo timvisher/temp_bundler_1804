@@ -1,7 +1,0 @@
----
-hostname: 127.0.0.1
-port: '2203'
-username: vagrant
-ssh_key: "/home/tvisher/git/temp_bundler_1804/.kitchen/kitchen-vagrant/test-no-cookbook-gems-vagrant-1604/.vagrant/machines/default/virtualbox/private_key"
-last_action: verify
-last_error: 

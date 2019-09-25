@@ -1,0 +1,43 @@
+---
+provisioner:
+  name: chef_solo
+  product_name: chef
+  product_version: 14
+  chef_license: accept
+platforms:
+  - name: vagrant-18.04
+    driver:
+      name: vagrant
+      box: bento/ubuntu-18.04
+    attributes:
+      authorization:
+        sudo:
+          users:
+            - vagrant
+  - name: vagrant-16.04
+    driver:
+      name: vagrant
+      box: bento/ubuntu-16.04
+    attributes:
+      authorization:
+        sudo:
+          users:
+            - vagrant
+  - name: vagrant-14.04
+    driver:
+      name: vagrant
+      box: bento/ubuntu-14.04
+    attributes:
+      authorization:
+        sudo:
+          users:
+            - vagrant
+  - name: ubuntu-18.04
+    driver:
+      name: vagrant
+      box: ubuntu/bionic64
+suites:
+  - name: test
+    run_list: 'recipe[test]'
+  - name: test-no-cookbook-gems
+    run_list: 'recipe[test_no_cookbook_gems]'
